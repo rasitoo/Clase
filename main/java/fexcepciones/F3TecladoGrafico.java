@@ -8,7 +8,7 @@ import javax.swing.JOptionPane;
 public class F3TecladoGrafico {
 
     /**
-     * Est� m�todo muestra una ventana gr�fica con el texto recibido como
+     * Est� metodo muestra una ventana gr�fica con el texto recibido como
      * par�metro y pide un n�mero entero por teclado.
      *
      * @param texto - Este texto ser� mostrado en la ventana gr�fica

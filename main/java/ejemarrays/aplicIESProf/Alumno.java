@@ -42,7 +42,7 @@ public class Alumno {
 				a= notas[i];
 		return a;
   }
-//  Devuelve true si todo va bien.
+//  Devuelve true si tod va bien.
 boolean pedirNota(Teclado t) throws IOException {
 	  boolean ok=false;
 	  System.out.println("Dar nombre de asignatura");
