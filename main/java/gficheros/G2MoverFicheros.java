@@ -1,6 +1,6 @@
 package gficheros;
 
-import expresionesbooleanas.Teclado;
+import aexpresionesbooleanas.Teclado;
 
 import java.io.File;
 import java.io.IOException;
