@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RecuperacionRodrigoTapiador</string>
+
+    <string-array name="categoria_array">
+        <item>Urgente</item>
+        <item>Personal</item>
+        <item>Compras</item>
+        <item>Trabajo</item>
+    </string-array>
+</resources>

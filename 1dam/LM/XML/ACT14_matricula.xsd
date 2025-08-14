@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="matricula" type="matricula">
+    </xs:element>
+    <xs:complexType name="matricula">
+        <xs:sequence>
+            <xs:element name="personal" type="personal"/>
+            <xs:element name="pago" type="pago"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="personal">
+        <xs:sequence>
+            <xs:element name="dni" type="Tdni"/>
+            <xs:element name="nombre" type="xs:string"></xs:element>
+            <xs:element name="titulacion" type="xs:string"></xs:element>
+            <xs:element name="curso_academico" type="curso"></xs:element>
+            <xs:element name="domicilios" type="domicilios"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="domicilios">
+        <xs:sequence>
+            <xs:element name="domicilio" type="domicilio" maxOccurs="unbounded"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="domicilio">
+        <xs:sequence>
+            <xs:element name="nombre" type="xs:string"></xs:element>
+        </xs:sequence>
+        <xs:attribute name="tipo" type="tipo"></xs:attribute>
+    </xs:complexType>
+    <xs:complexType name="pago">
+        <xs:sequence>
+            <xs:element name="tipo_matricula" type="xs:string"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:simpleType name="tnumero">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="1"></xs:minInclusive>
+            <xs:maxInclusive value="500"></xs:maxInclusive>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="Tdni">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[0-9]{8}[A-Z]{1}"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="curso">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[0-9]{4}/[0-9]{4}"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="tipo">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="(familiar|habitual)"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

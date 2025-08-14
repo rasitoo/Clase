@@ -1,0 +1,38 @@
+db.pedidos.insertMany([
+  { "pedido_id": 1, "descripcion": "Libros en papel", "cantidades_vendidas": 50, "stock_disponible": 100 },
+  { "pedido_id": 2, "descripcion": "Portátiles", "cantidades_vendidas": 30, "stock_disponible": 50 },
+  { "pedido_id": 3, "descripcion": "Televisores", "cantidades_vendidas": 20, "stock_disponible": 60 },
+  { "pedido_id": 4, "descripcion": "Telefonos Fijos", "cantidades_vendidas": 70, "stock_disponible": 120 },
+  { "pedido_id": 5, "descripcion": "Teléfonos Móviles", "cantidades_vendidas": 10, "stock_disponible": 25 },
+  { "pedido_id": 6, "descripcion": "Camaras Digitales", "cantidades_vendidas": 40, "stock_disponible": 80 },
+  { "pedido_id": 7, "descripcion": "Muebles de Oficina", "cantidades_vendidas": 100, "stock_disponible": 200 },
+  { "pedido_id": 8, "descripcion": "Muebles de Cocina", "cantidades_vendidas": 110, "stock_disponible": 26 },
+  { "pedido_id": 9, "descripcion": "Libros Digitales", "cantidades_vendidas": 200, "stock_disponible": 20 },
+  { "pedido_id": 10, "descripcion": "Ratones", "cantidades_vendidas": 230, "stock_disponible": 22 },
+]);
+
+db.productos.insertMany([
+  { "producto_id": 101, "nombre": "Libros en papel", "cantidad_disponible": 200 },
+  { "producto_id": 102, "nombre": "Portátiles", "cantidad_disponible": 150 },
+  { "producto_id": 103, "nombre": "Televisores", "cantidad_disponible": 120 },
+  { "producto_id": 104, "nombre": "Teléfonos Fijos", "cantidad_disponible": 200 },
+  { "producto_id": 105, "nombre": "Teléfonos Móviles", "cantidad_disponible": 50 },
+  { "producto_id": 106, "nombre": "Cámaras Digitales", "cantidad_disponible": 100 },
+  { "producto_id": 107, "nombre": "Muebles de Oficina", "cantidad_disponible": 300 },
+  { "producto_id": 108, "nombre": "Muebles de Cocina", "cantidad_disponible": 340 },
+  { "producto_id": 109, "nombre": "Libros Digitales", "cantidad_disponible": 220 },
+  { "producto_id": 110, "nombre": "Ratones", "cantidad_disponible": 110 }
+]);
+
+db.clientes.insertMany([
+  { "cliente_id": 201, "producto_id": 101, "pedido_id": 1, "fecha_pedido": "2021-12-21" },
+  { "cliente_id": 202, "producto_id": 102, "pedido_id": 2, "fecha_pedido": "2021-12-23" },
+  { "cliente_id": 203, "producto_id": 103, "pedido_id": 3, "fecha_pedido": "2022-12-21" },
+  { "cliente_id": 204, "producto_id": 104, "pedido_id": 4, "fecha_pedido": "2022-12-12" },
+  { "cliente_id": 205, "producto_id": 105, "pedido_id": 5, "fecha_pedido": "2023-12-22" },
+  { "cliente_id": 206, "producto_id": 106, "pedido_id": 6, "fecha_pedido": "2023-12-11" },
+  { "cliente_id": 207, "producto_id": 107, "pedido_id": 7, "fecha_pedido": "2023-12-01" },
+  { "cliente_id": 208, "producto_id": 108, "pedido_id": 8, "fecha_pedido": "2024-12-01" },
+  { "cliente_id": 209, "producto_id": 109, "pedido_id": 9, "fecha_pedido": "2024-12-12" },
+  { "cliente_id": 210, "producto_id": 110, "pedido_id": 10, "fecha_pedido": "2024-12-16" }
+]);

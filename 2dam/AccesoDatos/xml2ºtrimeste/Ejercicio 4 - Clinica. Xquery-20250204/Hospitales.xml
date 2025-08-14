@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hospitales>
+  <hospital id="H1">
+    <nombre>Hospital La Paz</nombre>
+    <direccion>Calle Los Toreros, 33 </direccion>
+    <ciudad>Madrid</ciudad>
+    <telefonos>
+      <telefono>111-2222</telefono>
+      <telefono>111-2223</telefono>
+    </telefonos>
+  </hospital>
+  <hospital id="H2">
+    <nombre>Fundacion Jimenez Diaz</nombre>
+    <direccion>Avenida la Paz, 44</direccion>
+    <ciudad>Madrid</ciudad>
+    <telefonos>
+      <telefono>2222-3333</telefono>
+      <telefono>2222-3334</telefono>
+    </telefonos>
+  </hospital>
+  <hospital id="H3">
+    <nombre>Clínica Quiron</nombre>
+    <direccion>Calle Preciados, 44</direccion>
+    <ciudad>Barcelona</ciudad>
+    <telefonos>
+      <telefono>444-0301</telefono>
+      <telefono>444-0302</telefono>
+    </telefonos>
+  </hospital>
+  <hospital id="H4">
+    <nombre>Hospital San Carlos</nombre>
+    <direccion>Calle del Sol 122</direccion>
+    <ciudad>Sevilla</ciudad>
+    <telefonos>
+      <telefono>333-2201</telefono>
+      <telefono>333-2202</telefono>
+    </telefonos>
+  </hospital>
+  <hospital id="H5">
+    <nombre>Hospital Virgen del Rocio</nombre>
+    <direccion>Avenida Sol 56</direccion>
+    <ciudad>Sevilla</ciudad>
+    <telefonos>
+      <telefono>444-1101</telefono>
+      <telefono>444-1102</telefono>
+      <telefono>444-1103</telefono>
+    </telefonos>
+  </hospital>
+</hospitales>

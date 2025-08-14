@@ -1,0 +1,145 @@
+*1*
+for $h in doc("D:\EJERCICIOS\XQUERY\Hospitales.xml")//hospital/nombre
+return $h 
+
+*2*
+for $h in doc("D:\EJERCICIOS\XQUERY\Hospitales.xml")//hospital/nombre
+where $h/ciudad='Madrid'
+return $h 
+
+*3*
+for $hospital in doc("D:\EJERCICIOS\XQUERY\Hospitales.xml")//hospital
+return
+  concat("Dirección: ", data($hospital/direccion)) 
+
+*4*
+for $hospital in doc("file:///E:/2DAM/AccesoADatos/BASEX/Clinica/Hospitales.xml")//hospital[@id = "H3"]
+return $hospital/telefonos/telefono
+
+*5*
+for $hospital in //hospital
+where count  ($hospital/telefonos/telefono) > 2
+return $hospital/nombre 
+
+*6*
+for $hospital in //hospital
+order by $hospital/nombre
+return $hospital/nombre 
+
+*7*
+/hospitales/hospital/nombre | /hospitales/hospital/ciudad 
+
+*8*
+for $medico in //medico
+let $hospital := //hospital[nombre = "Fundacion Jimenez Diaz"]
+where $medico/hospital_id = $hospital/@id
+return $medico/nombre 
+
+*9*
+CHATGP
+for $medico in doc("Medicos.xml")/medicos/medico
+let $hospital := doc("Hospitales.xml")/hospitales/hospital[@id = $medico/hospital_id]
+return serialize(
+  <medico>
+     <nombre>{$medico/nombre/text()}</nombre>
+     <especialidad>{$medico/especialidad/text()}</especialidad>
+     <hospital>{$hospital/nombre/text()}</hospital>
+  </medico>,
+  map {"indent" : "yes"}
+) 
+SIN CHATGP
+for $medico in doc("D:\EJERCICIOS\XQUERY\Medicos.xml")/medicos/medico
+let $hospital := doc("D:\EJERCICIOS\XQUERY\Hospitales.xml")/hospitales/hospital[@id = $medico/hospital_id]
+return <medico>
+     <nombre>{$medico/nombre}</nombre>
+     <especialidad>{$medico/especialidad}</especialidad>
+     <hospital>{$hospital/nombre}</hospital>
+  </medico>
+
+*10*
+CHATGP
+for $h in doc("D:\EJERCICIOS\XQUERY\Hospitales.xml")//hospital
+let $idHospital := $h/@id
+for $m in doc("D:\EJERCICIOS\XQUERY\Medicos.xml")//medico
+where $h[ciudad = "Barcelona"] and $m/hospital_id = $idHospital
+return serialize(
+  <medico>
+    <nombre>{$m/nombre/text()}</nombre>
+    <especialidad>{$m/especialidad/text()}</especialidad>
+    <hospital>{$h/nombre/text()}</hospital>
+  </medico>,
+  map {"indent": "yes"}
+) 
+SIN CHATGP
+for $h in doc("D:\EJERCICIOS\XQUERY\Hospitales.xml")//hospital
+let $idHospital := $h/@id
+for $m in doc("D:\EJERCICIOS\XQUERY\Medicos.xml")//medico
+where $h[ciudad = "Barcelona"] and $m/hospital_id = $idHospital
+return 
+  <medico>
+    <nombre>{$m/nombre/text()}</nombre>
+    <especialidad>{$m/especialidad/text()}</especialidad>
+    <hospital>{$h/nombre/text()}</hospital>
+  </medico>
+SIN CHATGP Y SIN DOC (CON DATA)
+for $medico in //medico
+let $hospital := //hospital[ciudad = "Barcelona"]
+where $medico/hospital_id = $hospital/@id
+return <medico>
+  <nombre>{data($medico/nombre)}</nombre>
+  <especialidad>{data($medico/especialidad)}</especialidad>   
+  <hospital>{data($hospital/nombre)}</hospital>
+</medico> 
+
+*11*
+for $medico in //medico 
+for $hospital in //hospital
+where $hospital [count($hospital/telefonos/ telefono) > 2]
+where $medico [hospital_id = $hospital/@id] 
+return serialize(
+<medico>
+<nombre>{$medico/nombre/text()}</nombre> 
+<especialidad>{$medico/especialidad/text()}</especialidad>
+<hospital>{$hospital/nombre/text()}</hospital>
+</medico>,
+map {"indent" : "yes"}
+) 
+
+*12*
+for $hospital in doc("D:\EJERCICIOS\XQUERY\Hospitales.xml")//hospital
+where $hospital/ciudad = "Sevilla"
+for $medico in doc("D:\EJERCICIOS\XQUERY\Medicos.xml")//medico 
+where $medico/especialidad = "Oncología" and $medico/hospital_id = $hospital/@id
+return $medico 
+
+*13*
+for $medico in //medico
+for $hospital in //hospital
+where $hospital/nombre = "Hospital San Carlos"
+and $medico/hospital_id = $hospital/@id
+return serialize(
+  <medico>
+    <nombre>{$medico/nombre/text()}</nombre>
+    <especialidad>{$medico/especialidad/text()}</especialidad>
+  </medico>,
+  map {"indent" : "yes"}
+) 
+
+*14*
+for $medico in doc("D:\EJERCICIOS\XQUERY\medicos.xml")//medico
+let $hospital := doc("D:\EJERCICIOS\XQUERY\hospitales.xml")//hospital[@id = $medico/hospital_id]
+where $hospital/ciudad = "Sevilla"
+return <medico>
+           <nombre>{ $medico/nombre/text() }</nombre>
+           <especialidad>{ $medico/especialidad/text() }</especialidad>
+  <hospital>
+  <nombre>{ $hospital/nombre/text() }</nombre>
+  <direccion>{ $hospital/direccion/text() }</direccion>
+  <ciudad>{ $hospital/ciudad/text() }</ciudad>
+  </hospital>
+  </medico> 
+
+*15*
+for $medico in doc("file:///D:\EJERCICIOS\XQUERY\/Medicos.xml")//medico
+let $hospital := doc("file:///D:\EJERCICIOS\XQUERY\/Hospitales.xml")//hospital[@id = $medico/hospital_id]
+return concat($medico/nombre, ' | ', $hospital/ciudad)

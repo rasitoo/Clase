@@ -1,0 +1,28 @@
+<Configuration status="WARN">
+    <Properties>
+        <Property name="miLayout">"%d [%t] %-5level %logger{36} - %msg%n%throwable" </Property>
+    </Properties>
+    <Appenders>
+        <Console name="ConsoleAppender" target="SYSTEM_OUT">
+            <LevelRangeFilter minLevel="ERROR" maxLevel="ERROR" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout pattern="${miLayout}" />
+        </Console>
+        <File name="FileAppender" fileName="traza.log">
+            <PatternLayout pattern="%d  %p %c{1.} [%t] %m%n"/>
+        </File>
+        <File name="FileAppender2" fileName="errores.log">
+            <PatternLayout pattern="%d  %p %c{1.} [%t] %m%n"/>
+        </File>
+    </Appenders>
+    <Loggers>
+        <Logger name="ClasePrincipal" level="all" additivity="false">
+            <AppenderRef ref="FileAppender"/>
+        </Logger>
+        <Logger name="ERROR" level="all" additivity="false">
+            <AppenderRef ref="FileAppender2"/>
+        </Logger>
+        <Root level="ERRORR">
+            <AppenderRef ref="FileAppender2"/>
+        </Root>
+    </Loggers>
+</Configuration>

@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+nav{
+    float: left;
+    background-color: lightgrey;
+    width: 10%;
+}
+nav ul{
+    list-style-type: none;
+}
+article{
+    float: left;
+    background-color: whitesmoke;
+    width: 30%;
+}
+footer{
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }

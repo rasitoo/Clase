@@ -1,0 +1,87 @@
+body{
+    background-image:url(fondo.png);
+}
+div{
+    margin-left: 90px;
+}
+h1{
+    color: blue;
+    letter-spacing: 65px;
+    text-decoration: underline;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+input[type="text"]{
+    display: block;
+    background-color: orange;
+    border-radius: 20px;
+    padding: 7px;
+    padding-left: 20px;
+    margin-top: 5px;
+    border-color: brown;
+    width: 780px;
+}
+caption{
+    margin-top: 10px;
+    font-style: italic;
+}
+table{
+    border: 15px solid;
+    border-style: ridge;
+    background-color: aquamarine;
+    border-spacing: 10px;
+}
+col.col1{
+    background-color: palevioletred;
+}
+col.col2{
+    background-color: lightskyblue;
+}
+col.col3{
+    background-color: yellow;
+}
+
+input[type="range"]:hover{
+    cursor: zoom-in;
+}
+tfoot{
+    background-color:rgba(216, 112, 147, 0.756);
+    color: rgb(195, 25, 25);
+}
+tr.opinion{
+    background-color:rgba(255, 255, 0, 0.9);
+}
+label[for="opinion"]{
+    background-color:rgba(164, 54, 198, 0.421);
+    color: rgb(195, 25, 25);
+}
+td{
+    margin: 50px;
+}
+p.borrador{
+    opacity:0.3;
+    position:fixed;
+    left: 300px;
+    top: 480px;
+    font-size:xx-large;
+}
+a:hover{
+    background-color:rgba(134, 236, 65, 0.9);
+}
+input[type="submit"]{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px 15px; /*Ajusta el espacio hasta los bordes del boton*/
+    background-color:greenyellow; /*Color del boton*/
+    border-radius: 20px; /*Redondea los bordes del boton*/
+    text-decoration: none; /*Le quitamos wl subrayado al enlace*/
+}
+input[type="reset"]{
+    
+    padding: 5px 15px; /*Ajusta el espacio hasta los bordes del boton*/
+    background-color:greenyellow; /*Color del boton*/
+    border-radius: 20px; /*Redondea los bordes del boton*/
+    text-decoration: none; /*Le quitamos wl subrayado al enlace*/
+}
+td.valorNumerico{
+    text-align: center;
+}

@@ -1,0 +1,62 @@
+@options
+@packages
+@argfile
+-classpath
+'C:/Users/josema/.m2/repository/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar;C:/Users/josema/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'17'
+-sourcepath
+'C:/Users/josema/Desktop/jm2/ies/asignaturas/impJava/TemasNew/Tema7bHerenciaPolim/ObjectyClone/Clonacion/Clonacion/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2024. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/josema/Desktop/jm2/ies/asignaturas/impJava/TemasNew/Tema7bHerenciaPolim/ObjectyClone/Clonacion/Clonacion/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'Clonacion 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'Clonacion 1.0-SNAPSHOT API'
+org.example.ConClone
+org.example.ConCloneable
+org.example.LibreriaCloning
+org.example
+'C:/Users/josema/Desktop/jm2/ies/asignaturas/impJava/TemasNew/Tema7bHerenciaPolim/ObjectyClone/Clonacion/Clonacion/src/main/java/org/example/ConClone/Clonacion.java'
+'C:/Users/josema/Desktop/jm2/ies/asignaturas/impJava/TemasNew/Tema7bHerenciaPolim/ObjectyClone/Clonacion/Clonacion/src/main/java/org/example/ConClone/Direccion.java'
+'C:/Users/josema/Desktop/jm2/ies/asignaturas/impJava/TemasNew/Tema7bHerenciaPolim/ObjectyClone/Clonacion/Clonacion/src/main/java/org/example/ConClone/Persona.java'
+'C:/Users/josema/Desktop/jm2/ies/asignaturas/impJava/TemasNew/Tema7bHerenciaPolim/ObjectyClone/Clonacion/Clonacion/src/main/java/org/example/ConCloneable/ClonableJM.java'
+'C:/Users/josema/Desktop/jm2/ies/asignaturas/impJava/TemasNew/Tema7bHerenciaPolim/ObjectyClone/Clonacion/Clonacion/src/main/java/org/example/ConCloneable/Clonacion.java'
+'C:/Users/josema/Desktop/jm2/ies/asignaturas/impJava/TemasNew/Tema7bHerenciaPolim/ObjectyClone/Clonacion/Clonacion/src/main/java/org/example/ConCloneable/Direccion.java'
+'C:/Users/josema/Desktop/jm2/ies/asignaturas/impJava/TemasNew/Tema7bHerenciaPolim/ObjectyClone/Clonacion/Clonacion/src/main/java/org/example/ConCloneable/Persona.java'
+'C:/Users/josema/Desktop/jm2/ies/asignaturas/impJava/TemasNew/Tema7bHerenciaPolim/ObjectyClone/Clonacion/Clonacion/src/main/java/org/example/LibreriaCloning/Clonacion.java'
+'C:/Users/josema/Desktop/jm2/ies/asignaturas/impJava/TemasNew/Tema7bHerenciaPolim/ObjectyClone/Clonacion/Clonacion/src/main/java/org/example/LibreriaCloning/Direccion.java'
+'C:/Users/josema/Desktop/jm2/ies/asignaturas/impJava/TemasNew/Tema7bHerenciaPolim/ObjectyClone/Clonacion/Clonacion/src/main/java/org/example/LibreriaCloning/Persona.java'
+'C:/Users/josema/Desktop/jm2/ies/asignaturas/impJava/TemasNew/Tema7bHerenciaPolim/ObjectyClone/Clonacion/Clonacion/src/main/java/org/example/Main.java'
+C:\Users\josema\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar = 1696347651141
+C:\Users\josema\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar = 1700673364201
+C:\Users\josema\Desktop\jm2\ies\asignaturas\impJava\TemasNew\Tema7bHerenciaPolim\ObjectyClone\Clonacion\Clonacion\src\main\java = 1711879061697
+C:\Users\josema\Desktop\jm2\ies\asignaturas\impJava\TemasNew\Tema7bHerenciaPolim\ObjectyClone\Clonacion\Clonacion\target\apidocs\allclasses-index.html = 1711889717921
+C:\Users\josema\Desktop\jm2\ies\asignaturas\impJava\TemasNew\Tema7bHerenciaPolim\ObjectyClone\Clonacion\Clonacion\target\apidocs\allpackages-index.html = 1711889717929
+C:\Users\josema\Desktop\jm2\ies\asignaturas\impJava\TemasNew\Tema7bHerenciaPolim\ObjectyClone\Clonacion\Clonacion\target\apidocs\element-list = 1711889717504
+C:\Users\josema\Desktop\jm2\ies\asignaturas\impJava\TemasNew\Tema7bHerenciaPolim\ObjectyClone\Clonacion\Clonacion\target\apidocs\help-doc.html = 1711889718020
+C:\Users\josema\Desktop\jm2\ies\asignaturas\impJava\TemasNew\Tema7bHerenciaPolim\ObjectyClone\Clonacion\Clonacion\target\apidocs\index-all.html = 1711889717998
+C:\Users\josema\Desktop\jm2\ies\asignaturas\impJava\TemasNew\Tema7bHerenciaPolim\ObjectyClone\Clonacion\Clonacion\target\apidocs\index.html = 1711889717871
+C:\Users\josema\Desktop\jm2\ies\asignaturas\impJava\TemasNew\Tema7bHerenciaPolim\ObjectyClone\Clonacion\Clonacion\target\apidocs\jquery-ui.overrides.css = 1711889718090
+C:\Users\josema\Desktop\jm2\ies\asignaturas\impJava\TemasNew\Tema7bHerenciaPolim\ObjectyClone\Clonacion\Clonacion\target\apidocs\member-search-index.js = 1711889717950
+C:\Users\josema\Desktop\jm2\ies\asignaturas\impJava\TemasNew\Tema7bHerenciaPolim\ObjectyClone\Clonacion\Clonacion\target\apidocs\module-search-index.js = 1711889717936
+C:\Users\josema\Desktop\jm2\ies\asignaturas\impJava\TemasNew\Tema7bHerenciaPolim\ObjectyClone\Clonacion\Clonacion\target\apidocs\overview-summary.html = 1711889718006
+C:\Users\josema\Desktop\jm2\ies\asignaturas\impJava\TemasNew\Tema7bHerenciaPolim\ObjectyClone\Clonacion\Clonacion\target\apidocs\overview-tree.html = 1711889717856
+C:\Users\josema\Desktop\jm2\ies\asignaturas\impJava\TemasNew\Tema7bHerenciaPolim\ObjectyClone\Clonacion\Clonacion\target\apidocs\package-search-index.js = 1711889717941
+C:\Users\josema\Desktop\jm2\ies\asignaturas\impJava\TemasNew\Tema7bHerenciaPolim\ObjectyClone\Clonacion\Clonacion\target\apidocs\script.js = 1711889718035
+C:\Users\josema\Desktop\jm2\ies\asignaturas\impJava\TemasNew\Tema7bHerenciaPolim\ObjectyClone\Clonacion\Clonacion\target\apidocs\search.js = 1711889718043
+C:\Users\josema\Desktop\jm2\ies\asignaturas\impJava\TemasNew\Tema7bHerenciaPolim\ObjectyClone\Clonacion\Clonacion\target\apidocs\stylesheet.css = 1711889718027
+C:\Users\josema\Desktop\jm2\ies\asignaturas\impJava\TemasNew\Tema7bHerenciaPolim\ObjectyClone\Clonacion\Clonacion\target\apidocs\tag-search-index.js = 1711889717955
+C:\Users\josema\Desktop\jm2\ies\asignaturas\impJava\TemasNew\Tema7bHerenciaPolim\ObjectyClone\Clonacion\Clonacion\target\apidocs\type-search-index.js = 1711889717945

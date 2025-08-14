@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Concesionario</string>
+    <string name="coche">Coche</string>
+    <string name="matr_cula_del_coche">Matrícula del coche</string>
+    <string name="marca_de_coche">Marca de coche</string>
+    <string name="modelo">Modelo</string>
+    <string name="color">Color</string>
+    <string name="extras">Extras</string>
+    <string name="antena_el_ctrica">Antena Eléctrica</string>
+    <string name="aire_acondicionado">Aire acondicionado</string>
+    <string name="airbag">Airbag</string>
+    <string name="elevalunas_el_ctrico">Elevalunas eléctrico</string>
+    <string name="climatizador">Climatizador</string>
+    <string name="precio_del_alquiler">Precio del alquiler</string>
+    <string name="codigo_del_cliente">Codigo del cliente</string>
+    <string name="a_adir_datos_del_alquiler">Añadir datos del alquiler</string>
+</resources>

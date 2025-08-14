@@ -1,0 +1,13 @@
+// librerias normales de conexion a Mongo, el cliente, la colección y la base de datos
+import com.mongodb.MongoException;
+import com.mongodb.client.MongoClient;
+import com.mongodb.client.MongoClients;
+import com.mongodb.client.MongoCollection;
+import com.mongodb.client.MongoDatabase;
+
+// librerias para el ejercicio 8 porque utilizamos un Filtro o condición (Filters)
+// bson para el formato de impresión de los documentos
+// para las colección de los arrays
+import com.mongodb.client.model.Filters;
+import org.bson.Document;
+import java.util.Arrays;

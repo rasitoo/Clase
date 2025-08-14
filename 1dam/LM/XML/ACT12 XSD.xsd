@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="alumno" type="alumno">
+    </xs:element>
+    <xs:complexType name="alumno">
+        <xs:sequence>
+            <xs:element name="nombre" type="xs:string" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="apellido" type="xs:string" minOccurs="0" maxOccurs="2"/>
+            <xs:element name="direccion" type="tdireccion" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="telefono" type="xs:positiveInteger" minOccurs="0" maxOccurs="5"/> <!--aparece entre 0 y 5 veces -->
+        </xs:sequence>
+        <xs:attribute name="dni" type="Tdni" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="tdireccion">
+        <xs:sequence>
+            <xs:element name="calle" type="xs:string" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="numero" type="tnumero" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="ciudad" type="xs:string" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="provincia" type="xs:string" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:simpleType name="tnumero">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="1"></xs:minInclusive>
+            <xs:maxInclusive value="500"></xs:maxInclusive>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="Tdni">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[0-9]{8}[A-Z]{1}"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

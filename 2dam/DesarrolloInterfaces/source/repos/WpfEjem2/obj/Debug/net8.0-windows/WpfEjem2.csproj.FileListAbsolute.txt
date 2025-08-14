@@ -1,0 +1,12 @@
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\WpfEjem2\obj\Debug\net8.0-windows\WpfEjem2.csproj.AssemblyReference.cache
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\WpfEjem2\obj\Debug\net8.0-windows\Controls\BasicListView.g.cs
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\WpfEjem2\obj\Debug\net8.0-windows\Controls\CustomListView.g.cs
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\WpfEjem2\obj\Debug\net8.0-windows\Controls\DataGridView.g.cs
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\WpfEjem2\obj\Debug\net8.0-windows\Controls\ItemsControlView.g.cs
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\WpfEjem2\obj\Debug\net8.0-windows\Controls\ListGridView.g.cs
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\WpfEjem2\obj\Debug\net8.0-windows\Controls\TreeDataView.g.cs
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\WpfEjem2\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\WpfEjem2\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\WpfEjem2\obj\Debug\net8.0-windows\WpfEjem2_MarkupCompile.cache
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\WpfEjem2\obj\Debug\net8.0-windows\WpfEjem2_MarkupCompile.lref
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\WpfEjem2\obj\Debug\net8.0-windows\MainWindow.g.cs

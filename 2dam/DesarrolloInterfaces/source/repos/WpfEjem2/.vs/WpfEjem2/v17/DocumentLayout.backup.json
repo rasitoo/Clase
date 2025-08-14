@@ -1,0 +1,398 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\WpfEjem2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF31CCE-7D57-442C-A6DA-FA70FE8EC8A2}|WpfEjem2.csproj|c:\\users\\rodrigo\\onedrive\\documents\\aaclase2\\desarrollointerfaces\\source\\repos\\wpfejem2\\viewmodels\\treedataviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF31CCE-7D57-442C-A6DA-FA70FE8EC8A2}|WpfEjem2.csproj|solutionrelative:viewmodels\\treedataviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF31CCE-7D57-442C-A6DA-FA70FE8EC8A2}|WpfEjem2.csproj|c:\\users\\rodrigo\\onedrive\\documents\\aaclase2\\desarrollointerfaces\\source\\repos\\wpfejem2\\controls\\treedataview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF31CCE-7D57-442C-A6DA-FA70FE8EC8A2}|WpfEjem2.csproj|solutionrelative:controls\\treedataview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF31CCE-7D57-442C-A6DA-FA70FE8EC8A2}|WpfEjem2.csproj|c:\\users\\rodrigo\\onedrive\\documents\\aaclase2\\desarrollointerfaces\\source\\repos\\wpfejem2\\controls\\treedataview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FDF31CCE-7D57-442C-A6DA-FA70FE8EC8A2}|WpfEjem2.csproj|solutionrelative:controls\\treedataview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF31CCE-7D57-442C-A6DA-FA70FE8EC8A2}|WpfEjem2.csproj|c:\\users\\rodrigo\\onedrive\\documents\\aaclase2\\desarrollointerfaces\\source\\repos\\wpfejem2\\viewmodels\\listgridviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF31CCE-7D57-442C-A6DA-FA70FE8EC8A2}|WpfEjem2.csproj|solutionrelative:viewmodels\\listgridviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF31CCE-7D57-442C-A6DA-FA70FE8EC8A2}|WpfEjem2.csproj|c:\\users\\rodrigo\\onedrive\\documents\\aaclase2\\desarrollointerfaces\\source\\repos\\wpfejem2\\controls\\listgridview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF31CCE-7D57-442C-A6DA-FA70FE8EC8A2}|WpfEjem2.csproj|solutionrelative:controls\\listgridview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF31CCE-7D57-442C-A6DA-FA70FE8EC8A2}|WpfEjem2.csproj|c:\\users\\rodrigo\\onedrive\\documents\\aaclase2\\desarrollointerfaces\\source\\repos\\wpfejem2\\controls\\listgridview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FDF31CCE-7D57-442C-A6DA-FA70FE8EC8A2}|WpfEjem2.csproj|solutionrelative:controls\\listgridview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF31CCE-7D57-442C-A6DA-FA70FE8EC8A2}|WpfEjem2.csproj|c:\\users\\rodrigo\\onedrive\\documents\\aaclase2\\desarrollointerfaces\\source\\repos\\wpfejem2\\viewmodels\\itemscontrolviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF31CCE-7D57-442C-A6DA-FA70FE8EC8A2}|WpfEjem2.csproj|solutionrelative:viewmodels\\itemscontrolviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF31CCE-7D57-442C-A6DA-FA70FE8EC8A2}|WpfEjem2.csproj|c:\\users\\rodrigo\\onedrive\\documents\\aaclase2\\desarrollointerfaces\\source\\repos\\wpfejem2\\controls\\itemscontrolview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF31CCE-7D57-442C-A6DA-FA70FE8EC8A2}|WpfEjem2.csproj|solutionrelative:controls\\itemscontrolview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF31CCE-7D57-442C-A6DA-FA70FE8EC8A2}|WpfEjem2.csproj|c:\\users\\rodrigo\\onedrive\\documents\\aaclase2\\desarrollointerfaces\\source\\repos\\wpfejem2\\controls\\itemscontrolview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FDF31CCE-7D57-442C-A6DA-FA70FE8EC8A2}|WpfEjem2.csproj|solutionrelative:controls\\itemscontrolview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF31CCE-7D57-442C-A6DA-FA70FE8EC8A2}|WpfEjem2.csproj|c:\\users\\rodrigo\\onedrive\\documents\\aaclase2\\desarrollointerfaces\\source\\repos\\wpfejem2\\controls\\datagridview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF31CCE-7D57-442C-A6DA-FA70FE8EC8A2}|WpfEjem2.csproj|solutionrelative:controls\\datagridview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF31CCE-7D57-442C-A6DA-FA70FE8EC8A2}|WpfEjem2.csproj|c:\\users\\rodrigo\\onedrive\\documents\\aaclase2\\desarrollointerfaces\\source\\repos\\wpfejem2\\controls\\datagridview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FDF31CCE-7D57-442C-A6DA-FA70FE8EC8A2}|WpfEjem2.csproj|solutionrelative:controls\\datagridview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF31CCE-7D57-442C-A6DA-FA70FE8EC8A2}|WpfEjem2.csproj|c:\\users\\rodrigo\\onedrive\\documents\\aaclase2\\desarrollointerfaces\\source\\repos\\wpfejem2\\viewmodels\\customlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF31CCE-7D57-442C-A6DA-FA70FE8EC8A2}|WpfEjem2.csproj|solutionrelative:viewmodels\\customlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF31CCE-7D57-442C-A6DA-FA70FE8EC8A2}|WpfEjem2.csproj|c:\\users\\rodrigo\\onedrive\\documents\\aaclase2\\desarrollointerfaces\\source\\repos\\wpfejem2\\controls\\customlistview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF31CCE-7D57-442C-A6DA-FA70FE8EC8A2}|WpfEjem2.csproj|solutionrelative:controls\\customlistview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF31CCE-7D57-442C-A6DA-FA70FE8EC8A2}|WpfEjem2.csproj|c:\\users\\rodrigo\\onedrive\\documents\\aaclase2\\desarrollointerfaces\\source\\repos\\wpfejem2\\viewmodels\\basiclistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF31CCE-7D57-442C-A6DA-FA70FE8EC8A2}|WpfEjem2.csproj|solutionrelative:viewmodels\\basiclistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF31CCE-7D57-442C-A6DA-FA70FE8EC8A2}|WpfEjem2.csproj|c:\\users\\rodrigo\\onedrive\\documents\\aaclase2\\desarrollointerfaces\\source\\repos\\wpfejem2\\controls\\basiclistview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF31CCE-7D57-442C-A6DA-FA70FE8EC8A2}|WpfEjem2.csproj|solutionrelative:controls\\basiclistview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF31CCE-7D57-442C-A6DA-FA70FE8EC8A2}|WpfEjem2.csproj|c:\\users\\rodrigo\\onedrive\\documents\\aaclase2\\desarrollointerfaces\\source\\repos\\wpfejem2\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF31CCE-7D57-442C-A6DA-FA70FE8EC8A2}|WpfEjem2.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF31CCE-7D57-442C-A6DA-FA70FE8EC8A2}|WpfEjem2.csproj|c:\\users\\rodrigo\\onedrive\\documents\\aaclase2\\desarrollointerfaces\\source\\repos\\wpfejem2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF31CCE-7D57-442C-A6DA-FA70FE8EC8A2}|WpfEjem2.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF31CCE-7D57-442C-A6DA-FA70FE8EC8A2}|WpfEjem2.csproj|c:\\users\\rodrigo\\onedrive\\documents\\aaclase2\\desarrollointerfaces\\source\\repos\\wpfejem2\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FDF31CCE-7D57-442C-A6DA-FA70FE8EC8A2}|WpfEjem2.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF31CCE-7D57-442C-A6DA-FA70FE8EC8A2}|WpfEjem2.csproj|c:\\users\\rodrigo\\onedrive\\documents\\aaclase2\\desarrollointerfaces\\source\\repos\\wpfejem2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FDF31CCE-7D57-442C-A6DA-FA70FE8EC8A2}|WpfEjem2.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF31CCE-7D57-442C-A6DA-FA70FE8EC8A2}|WpfEjem2.csproj|c:\\users\\rodrigo\\onedrive\\documents\\aaclase2\\desarrollointerfaces\\source\\repos\\wpfejem2\\controls\\customlistview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FDF31CCE-7D57-442C-A6DA-FA70FE8EC8A2}|WpfEjem2.csproj|solutionrelative:controls\\customlistview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF31CCE-7D57-442C-A6DA-FA70FE8EC8A2}|WpfEjem2.csproj|c:\\users\\rodrigo\\onedrive\\documents\\aaclase2\\desarrollointerfaces\\source\\repos\\wpfejem2\\controls\\basiclistview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FDF31CCE-7D57-442C-A6DA-FA70FE8EC8A2}|WpfEjem2.csproj|solutionrelative:controls\\basiclistview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF31CCE-7D57-442C-A6DA-FA70FE8EC8A2}|WpfEjem2.csproj|c:\\users\\rodrigo\\onedrive\\documents\\aaclase2\\desarrollointerfaces\\source\\repos\\wpfejem2\\wpfejem2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FDF31CCE-7D57-442C-A6DA-FA70FE8EC8A2}|WpfEjem2.csproj|solutionrelative:wpfejem2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TreeDataViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\WpfEjem2\\ViewModels\\TreeDataViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\TreeDataViewModel.cs",
+              "ToolTip": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\WpfEjem2\\ViewModels\\TreeDataViewModel.cs*",
+              "RelativeToolTip": "ViewModels\\TreeDataViewModel.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T18:53:03.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TreeDataView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\WpfEjem2\\Controls\\TreeDataView.xaml.cs",
+              "RelativeDocumentMoniker": "Controls\\TreeDataView.xaml.cs",
+              "ToolTip": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\WpfEjem2\\Controls\\TreeDataView.xaml.cs*",
+              "RelativeToolTip": "Controls\\TreeDataView.xaml.cs*",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAA8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T18:53:01.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TreeDataView.xaml",
+              "DocumentMoniker": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\WpfEjem2\\Controls\\TreeDataView.xaml",
+              "RelativeDocumentMoniker": "Controls\\TreeDataView.xaml",
+              "ToolTip": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\WpfEjem2\\Controls\\TreeDataView.xaml*",
+              "RelativeToolTip": "Controls\\TreeDataView.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-16T18:52:57.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ListGridViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\WpfEjem2\\ViewModels\\ListGridViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ListGridViewModel.cs",
+              "ToolTip": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\WpfEjem2\\ViewModels\\ListGridViewModel.cs*",
+              "RelativeToolTip": "ViewModels\\ListGridViewModel.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T18:52:56.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ListGridView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\WpfEjem2\\Controls\\ListGridView.xaml.cs",
+              "RelativeDocumentMoniker": "Controls\\ListGridView.xaml.cs",
+              "ToolTip": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\WpfEjem2\\Controls\\ListGridView.xaml.cs*",
+              "RelativeToolTip": "Controls\\ListGridView.xaml.cs*",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAA8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T18:52:55.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ListGridView.xaml",
+              "DocumentMoniker": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\WpfEjem2\\Controls\\ListGridView.xaml",
+              "RelativeDocumentMoniker": "Controls\\ListGridView.xaml",
+              "ToolTip": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\WpfEjem2\\Controls\\ListGridView.xaml*",
+              "RelativeToolTip": "Controls\\ListGridView.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-16T18:52:51.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ItemsControlViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\WpfEjem2\\ViewModels\\ItemsControlViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ItemsControlViewModel.cs",
+              "ToolTip": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\WpfEjem2\\ViewModels\\ItemsControlViewModel.cs*",
+              "RelativeToolTip": "ViewModels\\ItemsControlViewModel.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T18:52:50.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ItemsControlView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\WpfEjem2\\Controls\\ItemsControlView.xaml.cs",
+              "RelativeDocumentMoniker": "Controls\\ItemsControlView.xaml.cs",
+              "ToolTip": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\WpfEjem2\\Controls\\ItemsControlView.xaml.cs*",
+              "RelativeToolTip": "Controls\\ItemsControlView.xaml.cs*",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAA8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T18:52:46.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ItemsControlView.xaml",
+              "DocumentMoniker": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\WpfEjem2\\Controls\\ItemsControlView.xaml",
+              "RelativeDocumentMoniker": "Controls\\ItemsControlView.xaml",
+              "ToolTip": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\WpfEjem2\\Controls\\ItemsControlView.xaml",
+              "RelativeToolTip": "Controls\\ItemsControlView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-16T18:52:43.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DataGridView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\WpfEjem2\\Controls\\DataGridView.xaml.cs",
+              "RelativeDocumentMoniker": "Controls\\DataGridView.xaml.cs",
+              "ToolTip": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\WpfEjem2\\Controls\\DataGridView.xaml.cs",
+              "RelativeToolTip": "Controls\\DataGridView.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAA8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T18:52:41.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DataGridView.xaml",
+              "DocumentMoniker": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\WpfEjem2\\Controls\\DataGridView.xaml",
+              "RelativeDocumentMoniker": "Controls\\DataGridView.xaml",
+              "ToolTip": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\WpfEjem2\\Controls\\DataGridView.xaml",
+              "RelativeToolTip": "Controls\\DataGridView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-16T18:52:36.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CustomListViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\WpfEjem2\\ViewModels\\CustomListViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\CustomListViewModel.cs",
+              "ToolTip": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\WpfEjem2\\ViewModels\\CustomListViewModel.cs",
+              "RelativeToolTip": "ViewModels\\CustomListViewModel.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T18:52:35.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CustomListView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\WpfEjem2\\Controls\\CustomListView.xaml.cs",
+              "RelativeDocumentMoniker": "Controls\\CustomListView.xaml.cs",
+              "ToolTip": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\WpfEjem2\\Controls\\CustomListView.xaml.cs",
+              "RelativeToolTip": "Controls\\CustomListView.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAA8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T18:52:34.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BasicListViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\WpfEjem2\\ViewModels\\BasicListViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\BasicListViewModel.cs",
+              "ToolTip": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\WpfEjem2\\ViewModels\\BasicListViewModel.cs",
+              "RelativeToolTip": "ViewModels\\BasicListViewModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T18:52:33.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BasicListView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\WpfEjem2\\Controls\\BasicListView.xaml.cs",
+              "RelativeDocumentMoniker": "Controls\\BasicListView.xaml.cs",
+              "ToolTip": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\WpfEjem2\\Controls\\BasicListView.xaml.cs",
+              "RelativeToolTip": "Controls\\BasicListView.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAA8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T18:52:30.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\WpfEjem2\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\WpfEjem2\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T18:52:28.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CustomListView.xaml",
+              "DocumentMoniker": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\WpfEjem2\\Controls\\CustomListView.xaml",
+              "RelativeDocumentMoniker": "Controls\\CustomListView.xaml",
+              "ToolTip": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\WpfEjem2\\Controls\\CustomListView.xaml*",
+              "RelativeToolTip": "Controls\\CustomListView.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-16T18:51:37.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\WpfEjem2\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\WpfEjem2\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-16T18:51:16.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BasicListView.xaml",
+              "DocumentMoniker": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\WpfEjem2\\Controls\\BasicListView.xaml",
+              "RelativeDocumentMoniker": "Controls\\BasicListView.xaml",
+              "ToolTip": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\WpfEjem2\\Controls\\BasicListView.xaml*",
+              "RelativeToolTip": "Controls\\BasicListView.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-16T18:50:25.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "WpfEjem2",
+              "DocumentMoniker": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\WpfEjem2\\WpfEjem2.csproj",
+              "RelativeDocumentMoniker": "WpfEjem2.csproj",
+              "ToolTip": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\WpfEjem2\\WpfEjem2.csproj",
+              "RelativeToolTip": "WpfEjem2.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-16T18:45:39.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\WpfEjem2\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\WpfEjem2\\MainWindow.xaml*",
+              "RelativeToolTip": "MainWindow.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-16T18:44:33.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\WpfEjem2\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\WpfEjem2\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T18:44:33.62Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

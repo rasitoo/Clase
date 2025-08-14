@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<concesionario>
+    <marcas>
+        <marca nombre="Seat">
+            <coche>
+                <modelo año="2006">León</modelo>
+                <color>verde</color>
+                <matricula>123245346</matricula>
+                <precio>gratis</precio>
+            </coche>
+            <coche>
+                <modelo año="3">Panda</modelo>
+                <color>rosa</color>
+                <matricula>1232453462</matricula>
+                <precio>-10€</precio>
+            </coche>
+        </marca>
+        <marca nombre="Mercedes">
+            <coche>
+                <modelo año="2030">GLS</modelo>
+                <color>negro</color>
+                <matricula>12</matricula>
+                <precio>10000000000000000000000000€</precio>
+            </coche>
+        </marca>
+    </marcas>
+</concesionario>

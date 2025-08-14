@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ico_home_24"
+        android:title="inicio" />
+
+    <item android:id="@+id/garageFragment"
+        android:icon="@drawable/ico_emoji_emotions_24"
+        android:title="garaje" />
+
+    <item android:id="@+id/usersFragment"
+        android:icon="@drawable/ico_person_outline_24"
+        android:title="usuarios" />
+</menu>

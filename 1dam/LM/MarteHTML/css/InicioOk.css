@@ -1,0 +1,23 @@
+.Inicio{
+    max-width: 600px;/*Es el ancho del recuadro, en este caso */
+    margin: 100px auto;/*Es el margen establecido con los cuatro lados, de esta froma podemos centrarlo mejor */
+    background-color: #ecb05d;/*Le ponemos color de fondo al recuadro*/
+    padding: 30px;/*Es el espacio del recuadro */
+    border-radius: 10px;/*Define el borde del recuadro, concretamente la esquina*/
+    text-align: center; /*Es la alineacion del texto en el recuadro, de esta manera lo podemos dejar en el centro*/
+
+}
+
+body {/*En el body ponemos de fondo una imagen que cubra toda la pantalla y 
+    en caso de ser una imagen en la cual no la cubra entera, el color negro hará contraste para que así no se vea mal  */
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        background-attachment:fixed;
+        background-image: url(../media/Cuartito.jpg);
+        background-repeat: no-repeat;
+        background-size: cover; 
+}
+
+h2{ /*Establecemos un tipo de letra*/
+    font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}

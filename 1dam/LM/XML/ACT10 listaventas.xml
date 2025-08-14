@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE listaventas SYSTEM "ACT10 listaventas.dtd">
+<listaventas>
+    <venta>
+        <importe>50€</importe>
+        <codFactura>214234</codFactura>
+        <comprador>pepe</comprador>
+        <vendedor>juan</vendedor>
+        <fecha day="3" month="4" year="1973" />
+    </venta>
+</listaventas>

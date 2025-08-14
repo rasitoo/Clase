@@ -1,0 +1,32 @@
+ db.medicos.insertMany([   
+    {
+        "_id": 201,
+        "nombre": "Dr. Juan Pérez",
+        "especialidad": "Cardiología",
+        "hospital_id": 111
+    },
+    {
+        "_id": 202,
+        "nombre": "Dr. María López",
+        "especialidad": "Pediatría",
+        "hospital_id": 111
+    },
+    {
+        "_id": 203,
+        "nombre": "Dr. Sergio Rodríguez",
+        "especialidad": "Oncología",
+        "hospital_id": 112
+    },
+    {
+        "_id": 204,
+        "nombre": "Dra. Ana García",
+        "especialidad": "Ginecología",
+        "hospital_id": 113
+    },
+    {
+        "_id": 205,
+        "nombre": "Dr. Luis Fernández",
+        "especialidad": "Neurología",
+        "hospital_id": 114
+    }
+]);

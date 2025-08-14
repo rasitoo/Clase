@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE trayecto SYSTEM "examXML1DAM.xsd">
+<trayecto dificultad="fácil">
+	<anonimo sinNombre="true"/>
+	<puntoOrigen>
+		<pais ciudad="Leganés">España</pais>
+		<latitud>85.32</latitud>
+		<longitud>145.13</longitud>
+	</puntoOrigen>
+	<puntoIntermedio>
+		<latitud>85.33</latitud>
+		<longitud>145.12</longitud>
+	</puntoIntermedio>
+	<puntoIntermedio>
+		<latitud>85.35</latitud>
+		<longitud>145.11</longitud>
+	</puntoIntermedio>
+	<puntoDestino>
+		<latitud>85.35</latitud>
+		<longitud>145.10</longitud>
+	</puntoDestino>
+</trayecto>
+	

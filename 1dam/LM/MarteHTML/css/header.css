@@ -1,0 +1,48 @@
+body{
+    /*Eliminamos todo tipo de margenes para que el cabecero quede bien pegado a los bordes*/
+    margin: 0; 
+    padding: 0;
+}
+.header{
+    background-color: rgb(11, 89, 125); /*color del fondo*/
+    width: 100%; /*ocupa todo el ancho de la pantalla*/
+    height: auto; /*depende de los elementos que contiene*/
+    position: fixed; /*El cabecero siempre estara arriba*/
+    align-items:center; /*los elementos que contenga iran al centro*/
+    display: flex; /*Los botones y todo sale en línea */
+    z-index: 100; /*otros bloques con texto o imagenes se esconderan debajo del cabecero*/
+}
+.header > h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: #d35400; /*Da el color de marte al título del cabecero*/
+}
+.header_izquierda{
+    margin-right: auto; /*Para mantenerlo a la derecha*/
+    margin-left: 10px; /*Para no pegarlo mucho a la izquierda*/
+    
+}
+.imagenMarte{
+    /*Ajusta el tamaño de la imagen*/
+    width: 30px;
+    height: 30px;
+    /*Ajusta margenes y separa de la parte superior*/
+    margin: 3px;
+    padding-top: 3px;
+}
+.header_derecha{
+    margin-left: auto; /*Para mantenerlo a la derecha*/
+    display: inline; /*Para que todos los botones aparezcan en linea y acepte margenes*/
+}
+.header_derecha:last-child{
+    margin-right: 10px; /*Para que el último de los botones no se pegue al borde*/
+}
+.boton {
+    padding: 5px 15px; /*Ajusta el espacio hasta los bordes del boton*/
+    background-color: #8199af; /*Color del boton*/
+    color: rgb(255, 255, 255); /*Color del texto del boton*/
+    border-radius: 5px; /*Redondea los bordes del boton*/
+    text-decoration: none; /*Le quitamos wl subrayado al enlace*/
+}
+.boton:hover {
+    color: #7fb6e6; /* Cambia el color al pasar el cursor */
+}

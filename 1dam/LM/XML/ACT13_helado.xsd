@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="heladeria" type="heladeria"></xs:element>
+    <xs:complexType name="heladeria">
+        <xs:sequence>
+            <xs:element name="helado" type="helado" maxOccurs="unbounded"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="helado">
+        <xs:sequence>
+            <xs:choice> <!-- con choice hacemos que se tenga que elegir uno u otro pero no ambos-->
+                <xs:element name="chocolate" type="gramos"></xs:element>
+                <xs:element name="fresa" type="gramos"></xs:element>
+            </xs:choice>
+            <xs:choice>
+                <xs:element name="vainilla" type="gramos"></xs:element>
+                <xs:element name="turron" type="gramos"></xs:element>
+                <xs:element name="nata" type="gramos"></xs:element>
+            </xs:choice>
+        </xs:sequence>
+        <xs:attribute name="fabricación" type="xs:date"></xs:attribute> <!-- con type xs:date ya hace automaticamente las restricciones de fecha necesarias-->
+    </xs:complexType>
+    <xs:simpleType name="gramos">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="0"></xs:minInclusive>
+            <xs:maxInclusive value="1000"></xs:maxInclusive>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

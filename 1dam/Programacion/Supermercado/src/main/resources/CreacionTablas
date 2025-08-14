@@ -1,0 +1,16 @@
+Create table BDMERCADO.CLIENTES (
+id int primary key,
+nombre varchar,
+dinerogastado double
+)
+Create table BDMERCADO.COMPRAS (
+idCLIENTE int primary key,
+idProducto int,
+cantidad int
+)
+Create table BDMERCADO.PRODUCTOS (
+id int primary key,
+nombre varchar,
+precio double,
+cantidad int
+)

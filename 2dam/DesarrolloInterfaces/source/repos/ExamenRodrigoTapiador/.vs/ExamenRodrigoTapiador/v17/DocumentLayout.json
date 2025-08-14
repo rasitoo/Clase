@@ -1,0 +1,218 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\ExamenRodrigoTapiador\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8EBBF58C-2AD1-4342-A42F-49D137B24D3A}|ExamenRodrigoTapiador.csproj|c:\\users\\rodrigo\\onedrive\\documents\\aaclase2\\desarrollointerfaces\\source\\repos\\examenrodrigotapiador\\ui\\controls\\listviewimages.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8EBBF58C-2AD1-4342-A42F-49D137B24D3A}|ExamenRodrigoTapiador.csproj|solutionrelative:ui\\controls\\listviewimages.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EBBF58C-2AD1-4342-A42F-49D137B24D3A}|ExamenRodrigoTapiador.csproj|c:\\users\\rodrigo\\onedrive\\documents\\aaclase2\\desarrollointerfaces\\source\\repos\\examenrodrigotapiador\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EBBF58C-2AD1-4342-A42F-49D137B24D3A}|ExamenRodrigoTapiador.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EBBF58C-2AD1-4342-A42F-49D137B24D3A}|ExamenRodrigoTapiador.csproj|c:\\users\\rodrigo\\onedrive\\documents\\aaclase2\\desarrollointerfaces\\source\\repos\\examenrodrigotapiador\\ui\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EBBF58C-2AD1-4342-A42F-49D137B24D3A}|ExamenRodrigoTapiador.csproj|solutionrelative:ui\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EBBF58C-2AD1-4342-A42F-49D137B24D3A}|ExamenRodrigoTapiador.csproj|c:\\users\\rodrigo\\onedrive\\documents\\aaclase2\\desarrollointerfaces\\source\\repos\\examenrodrigotapiador\\data\\rest\\restclientimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EBBF58C-2AD1-4342-A42F-49D137B24D3A}|ExamenRodrigoTapiador.csproj|solutionrelative:data\\rest\\restclientimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EBBF58C-2AD1-4342-A42F-49D137B24D3A}|ExamenRodrigoTapiador.csproj|c:\\users\\rodrigo\\onedrive\\documents\\aaclase2\\desarrollointerfaces\\source\\repos\\examenrodrigotapiador\\data\\rest\\restclientartist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EBBF58C-2AD1-4342-A42F-49D137B24D3A}|ExamenRodrigoTapiador.csproj|solutionrelative:data\\rest\\restclientartist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EBBF58C-2AD1-4342-A42F-49D137B24D3A}|ExamenRodrigoTapiador.csproj|c:\\users\\rodrigo\\onedrive\\documents\\aaclase2\\desarrollointerfaces\\source\\repos\\examenrodrigotapiador\\data\\rest\\irestclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EBBF58C-2AD1-4342-A42F-49D137B24D3A}|ExamenRodrigoTapiador.csproj|solutionrelative:data\\rest\\irestclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EBBF58C-2AD1-4342-A42F-49D137B24D3A}|ExamenRodrigoTapiador.csproj|c:\\users\\rodrigo\\onedrive\\documents\\aaclase2\\desarrollointerfaces\\source\\repos\\examenrodrigotapiador\\data\\rest\\restclientgenre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EBBF58C-2AD1-4342-A42F-49D137B24D3A}|ExamenRodrigoTapiador.csproj|solutionrelative:data\\rest\\restclientgenre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EBBF58C-2AD1-4342-A42F-49D137B24D3A}|ExamenRodrigoTapiador.csproj|c:\\users\\rodrigo\\onedrive\\documents\\aaclase2\\desarrollointerfaces\\source\\repos\\examenrodrigotapiador\\data\\apiclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EBBF58C-2AD1-4342-A42F-49D137B24D3A}|ExamenRodrigoTapiador.csproj|solutionrelative:data\\apiclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EBBF58C-2AD1-4342-A42F-49D137B24D3A}|ExamenRodrigoTapiador.csproj|c:\\users\\rodrigo\\onedrive\\documents\\aaclase2\\desarrollointerfaces\\source\\repos\\examenrodrigotapiador\\data\\entities\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EBBF58C-2AD1-4342-A42F-49D137B24D3A}|ExamenRodrigoTapiador.csproj|solutionrelative:data\\entities\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EBBF58C-2AD1-4342-A42F-49D137B24D3A}|ExamenRodrigoTapiador.csproj|c:\\users\\rodrigo\\onedrive\\documents\\aaclase2\\desarrollointerfaces\\source\\repos\\examenrodrigotapiador\\data\\entities\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EBBF58C-2AD1-4342-A42F-49D137B24D3A}|ExamenRodrigoTapiador.csproj|solutionrelative:data\\entities\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EBBF58C-2AD1-4342-A42F-49D137B24D3A}|ExamenRodrigoTapiador.csproj|c:\\users\\rodrigo\\onedrive\\documents\\aaclase2\\desarrollointerfaces\\source\\repos\\examenrodrigotapiador\\data\\entities\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EBBF58C-2AD1-4342-A42F-49D137B24D3A}|ExamenRodrigoTapiador.csproj|solutionrelative:data\\entities\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ListViewImages.xaml",
+              "DocumentMoniker": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\ExamenRodrigoTapiador\\UI\\Controls\\ListViewImages.xaml",
+              "RelativeDocumentMoniker": "UI\\Controls\\ListViewImages.xaml",
+              "ToolTip": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\ExamenRodrigoTapiador\\UI\\Controls\\ListViewImages.xaml",
+              "RelativeToolTip": "UI\\Controls\\ListViewImages.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-11T17:28:47.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\ExamenRodrigoTapiador\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\ExamenRodrigoTapiador\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T17:23:25.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\ExamenRodrigoTapiador\\UI\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "UI\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\ExamenRodrigoTapiador\\UI\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "UI\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T17:18:45.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RestClientImage.cs",
+              "DocumentMoniker": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\ExamenRodrigoTapiador\\Data\\Rest\\RestClientImage.cs",
+              "RelativeDocumentMoniker": "Data\\Rest\\RestClientImage.cs",
+              "ToolTip": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\ExamenRodrigoTapiador\\Data\\Rest\\RestClientImage.cs",
+              "RelativeToolTip": "Data\\Rest\\RestClientImage.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T16:43:28.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RestClientGenre.cs",
+              "DocumentMoniker": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\ExamenRodrigoTapiador\\Data\\Rest\\RestClientGenre.cs",
+              "RelativeDocumentMoniker": "Data\\Rest\\RestClientGenre.cs",
+              "ToolTip": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\ExamenRodrigoTapiador\\Data\\Rest\\RestClientGenre.cs",
+              "RelativeToolTip": "Data\\Rest\\RestClientGenre.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T16:43:24.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApiClientService.cs",
+              "DocumentMoniker": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\ExamenRodrigoTapiador\\Data\\ApiClientService.cs",
+              "RelativeDocumentMoniker": "Data\\ApiClientService.cs",
+              "ToolTip": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\ExamenRodrigoTapiador\\Data\\ApiClientService.cs",
+              "RelativeToolTip": "Data\\ApiClientService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T16:25:53.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RestClientArtist.cs",
+              "DocumentMoniker": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\ExamenRodrigoTapiador\\Data\\Rest\\RestClientArtist.cs",
+              "RelativeDocumentMoniker": "Data\\Rest\\RestClientArtist.cs",
+              "ToolTip": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\ExamenRodrigoTapiador\\Data\\Rest\\RestClientArtist.cs",
+              "RelativeToolTip": "Data\\Rest\\RestClientArtist.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T16:25:51.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IRestClient.cs",
+              "DocumentMoniker": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\ExamenRodrigoTapiador\\Data\\Rest\\IRestClient.cs",
+              "RelativeDocumentMoniker": "Data\\Rest\\IRestClient.cs",
+              "ToolTip": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\ExamenRodrigoTapiador\\Data\\Rest\\IRestClient.cs",
+              "RelativeToolTip": "Data\\Rest\\IRestClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T16:25:50.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Image.cs",
+              "DocumentMoniker": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\ExamenRodrigoTapiador\\Data\\Entities\\Image.cs",
+              "RelativeDocumentMoniker": "Data\\Entities\\Image.cs",
+              "ToolTip": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\ExamenRodrigoTapiador\\Data\\Entities\\Image.cs",
+              "RelativeToolTip": "Data\\Entities\\Image.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T16:23:16.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Genre.cs",
+              "DocumentMoniker": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\ExamenRodrigoTapiador\\Data\\Entities\\Genre.cs",
+              "RelativeDocumentMoniker": "Data\\Entities\\Genre.cs",
+              "ToolTip": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\ExamenRodrigoTapiador\\Data\\Entities\\Genre.cs",
+              "RelativeToolTip": "Data\\Entities\\Genre.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T16:23:15.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Artist.cs",
+              "DocumentMoniker": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\ExamenRodrigoTapiador\\Data\\Entities\\Artist.cs",
+              "RelativeDocumentMoniker": "Data\\Entities\\Artist.cs",
+              "ToolTip": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\ExamenRodrigoTapiador\\Data\\Entities\\Artist.cs",
+              "RelativeToolTip": "Data\\Entities\\Artist.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T16:23:13.603Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado notas</title>
+</head>
+<body>
+    <header style="text-align: center;">
+        <h1>
+            Calificaciones
+        </h1>
+    </header>
+    <form action="notasEnviadas.html">
+        <table style="border: 3px solid;">
+            <caption style="font-size: large; font-family:Arial, Helvetica, sans-serif;"> <i>Alumnos matriculados</i></caption>
+            <tr >
+                <th colspan="2" style="background-color: gray; padding: 9px;">
+
+                </th>
+                <th colspan="2" style="background-color: aqua; padding: 9px;">
+                    Sistemas Operativos
+                </th>
+                <th colspan="2" style="background-color: aquamarine; padding: 9px;">
+                    <a href="LenguajeMarcas.html">Lenguaje de Marcas</a>
+                </th>
+            </tr>
+            <tr>
+                <th style="background-color: gray; padding: 9px;">
+                    Nombre
+                </th>
+                <th style="background-color: gray; padding: 9px;"> 
+                    Apellidos
+                </th>
+                <th style="background-color: aqua;">
+                    Nota Numérica
+                </th>
+                <th style="background-color: aqua;">
+                    Nota textual
+                </th>
+                <th style="background-color: aquamarine;">
+                    Nota Numérica
+                </th>
+                <th style="background-color: aquamarine;">
+                    Nota textual
+                </th>
+            </tr>
+            <tr>
+                <td style="background-color: gray; padding: 9px;">
+                    José Manuel
+                </td>
+                <td style="background-color: gray; padding: 9px;">
+                    Pérez
+                </td>
+                <td colspan="2" style="background-color: aqua; padding: 9px;">
+                    <table style="border: 3px solid; ">
+                        <td>
+                            <input type="range" name="NotaNumSI1" min="0" max="10" value="0" oninput="ValorNumSI1.value = this.value"><br> <br> <br>
+                            
+                            <output name="ValorNumSI1" style="padding-left: 55px; font-size: large;"></output> <br> <br>
+                        </td>
+                        <td>
+                            <input type="radio" name="textoSI1" value="Suspenso"> Suspenso <br>
+                            <input type="radio" name="textoSI1" value="Aprobado"> Aprobado <br>
+                            <input type="radio" name="textoSI1" value="Bien"> Bien <br>
+                            <input type="radio" name="textoSI1" value="Notable"> Notable <br>
+                            <input type="radio" name="textoSI1" value="Sobresaliente"> Sobresaliente<br>
+                            <input type="radio" name="textoSI1" value="NoPre" checked required> No Presentado<br>
+                        </td>
+                    </table>
+                </td>
+                <td colspan="2" style="background-color: aquamarine; padding: 9px;">
+                    <table style="border: 3px solid;">
+                        <td>
+                            <input type="range" name="NotaNumLM1" min="0" max="10" value="0" oninput="ValorNumLM1.value = this.value"/><br> <br> <br>
+                            
+                            <output name="ValorNumLM1" style="padding-left: 55px; font-size: large;"></output> <br> <br>
+                        </td>
+                        <td>
+                            <input type="radio" name="textoLM1" value="Suspenso"> Suspenso <br>
+                            <input type="radio" name="textoLM1" value="Aprobado"> Aprobado <br>
+                            <input type="radio" name="textoLM1" value="Bien"> Bien <br>
+                            <input type="radio" name="textoLM1" value="Notable"> Notable <br>
+                            <input type="radio" name="textoLM1" value="Sobresaliente"> Sobresaliente <br>
+                            <input type="radio" name="textoLM1" value="NoPre" required> No Presentado <br>
+                        </td>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: gray; padding: 9px;">
+                    Rodrigo
+                </td>
+                <td style="background-color: gray; padding: 9px;">
+                    Tapiador
+                </td>
+                <td colspan="2" style="background-color: aqua; padding: 9px;">
+                    <table style="border: 3px solid;">
+                        <td>
+                            <input type="range" name="NotaNumSI2" min="0" max="10" value="0" oninput="ValorNumSI2.value = this.value"/><br> <br> <br>
+                            
+                            <output name="ValorNumSI2" style="padding-left: 55px; font-size: large;"></output> <br> <br>
+                        </td>
+                        <td>
+                            <input type="radio" name="textoSI2" value="Suspenso"> Suspenso <br>
+                            <input type="radio" name="textoSI2" value="Aprobado"> Aprobado <br>
+                            <input type="radio" name="textoSI2" value="Bien"> Bien <br>
+                            <input type="radio" name="textoSI2" value="Notable"> Notable <br>
+                            <input type="radio" name="textoSI2" value="Sobresaliente"> Sobresaliente <br>
+                            <input type="radio" name="textoSI2" value="NoPre" checked> No Presentado <br>
+                        </td>
+                    </table>
+                </td>
+                <td colspan="2" style="background-color: aquamarine; padding: 9px;">
+                    <table style="border: 3px solid; ">
+                        <td>
+                            <input type="range" name="NotaNumLM2" min="0" max="10" value="0" oninput="ValorNumLM2.value = this.value"><br> <br> <br>
+
+                            <output name="ValorNumLM2" style="padding-left: 55px; font-size: large;"></output> <br> <br>
+                            
+                        </td>
+                        <td>
+                            <input type="radio" name="textoLM2" value="Suspenso"> Suspenso <br>
+                            <input type="radio" name="textoLM2" value="Aprobado"> Aprobado <br>
+                            <input type="radio" name="textoLM2" value="Bien"> Bien <br>
+                            <input type="radio" name="textoLM2" value="Notable"> Notable <br>
+                            <input type="radio" name="textoLM2" value="Sobresaliente"> Sobresaliente <br>
+                            <input type="radio" name="textoLM2" value="NoPre" required> No Presentado <br>
+                        </td>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="6" style="background-color: gray; padding: 9px;">
+                    <span style="color: yellow;">Selecciona en la barra para que aparezca la nota numérica</span>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <input type="submit" value="Enviar Notas">
+        <input type="reset" value="Borrar Notas">
+    </form>
+</body>
+</html>

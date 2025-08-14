@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE informe SYSTEM "ACT11 ventaseditorial.dtd">
+<informe>
+    <Cabecera>
+        <Desc>Esto es un informe</Desc>
+        <Fecha Day="24" Month="2" Year="2243" />
+    </Cabecera>
+    <Datos>
+        <Region>Norte</Region>
+        <Trimestre numero="1">
+            <Ventas></Ventas>
+        </Trimestre>
+    </Datos>
+</informe>

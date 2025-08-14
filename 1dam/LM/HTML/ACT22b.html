@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv=“refresh” content=“1”>
+  <title>Document</title>
+</head>
+<body>
+  <h1>dibujo con canvas</h1>
+        <canvas id="canvas" width="400" height="300" style="border:3px dotted #00F000">
+         Tu navegador no admite canvas
+        </canvas>
+<script>
+var canvas;  
+var ctx;
+var x = 130;
+var y = 100;
+var dx = 2;
+var dy = 4;
+var width = 400;
+var height = 300; 
+
+function circle(x,y,r) {
+  ctx.beginPath();
+  ctx.arc(x, y, r, 0, Math.PI*2, true);
+  ctx.fill();
+}
+
+function rect(x,y,w,h) {
+  ctx.beginPath();
+  ctx.rect(x,y,w,h);
+  ctx.closePath();
+  ctx.fill();
+}
+
+ 
+function reset() {
+  ctx.clearRect(0, 0, width, height);
+}
+
+function init() {
+  canvas = document.getElementById("canvas");
+  ctx = canvas.getContext("2d");
+  
+  ctx.fillStyle = "#FAF7F8";
+  rect(0,0,width,height);
+  ctx.fillStyle = "#444444";
+  circle(x, y, 25);
+  return setInterval(draw, 500);
+}
+function randomNumber(min, max) {
+  return Math.random() * (max - min) + min;
+}
+
+function draw(){
+  ctx.lineWidth = 0.5;
+  ctx.beginPath();
+  ctx.moveTo(130, 100);
+  ctx.lineTo(randomNumber(250,550),300);
+  ctx.strokeStyle = "red";
+  ctx.stroke();
+}
+
+init();
+</script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+<!ELEMENT listaventas (venta+)>
+<!ELEMENT venta (importe,codFactura,comprador, vendedor, fecha)>
+<!ELEMENT importe (#PCDATA)>
+<!ELEMENT codFactura (#PCDATA)>
+<!ELEMENT comprador (#PCDATA)>
+<!ELEMENT vendedor (#PCDATA)>
+<!ELEMENT fecha EMPTY>
+<!ATTLIST fecha
+    day CDATA #REQUIRED
+    month CDATA #REQUIRED
+    year CDATA #REQUIRED>

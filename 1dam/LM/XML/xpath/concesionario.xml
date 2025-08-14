@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<concesionario>
+	<coche combustible="D">
+		<marca>Volkswagen</marca>
+		<modelo>Passat</modelo>
+		<color>Azul</color>
+		<year>2005</year>
+		<precio>7900.00</precio>
+	</coche>
+	<coche combustible="G">
+		<marca>Volkswagen</marca>
+		<modelo>Touran</modelo>
+		<color>Azul</color>
+		<year>2007</year>
+		<precio>8200.00</precio>
+	</coche>
+	<coche combustible="D">
+		<marca>opel</marca>
+		<modelo>Astra</modelo>
+		<color>Negro</color>
+		<year>2013</year>
+		<precio>8490.00</precio>
+	</coche>
+</concesionario>
+<!--
+	 Obtener todos los coches cuyo año sea mayor a 2005
+
+	 /concesionario/coche[year>2005]
+ -->
+ <!--
+	 Obtener marca y modelo de los coches cuyo año sea mayor a 2005
+
+	 /concesionario/coche[year>2005]/marca | /concesionario/coche[year>2005]/modelo
+ -->
+ <!--
+	Obtener todos los modelos de coche cuyo combustible sea D y el color sea Azul
+
+	//coche[@combustible="D"][color="Azul"]/modelo
+  -->
+ <!--
+	 • Obtener todos los coches cuya marca sea Volkswagen
+
+	 //coche[marca="Volkswagen"]
+
+  -->

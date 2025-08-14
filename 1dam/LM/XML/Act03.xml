@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<programa>
+    <maduracion nombre = 'Agosto'>
+        <arbol>
+            <nombre>Litchi</nombre>
+            <variedad>Kway may pink</variedad>
+            <ciudad>Filipinas</ciudad>
+            <color>Rosa</color>
+            <riego>Diario</riego>
+            <precio>3,50</precio>
+        </arbol>
+    </maduracion>
+
+    <maduracion nombre = 'Octubre'>
+        <arbol>
+            <nombre>Longan</nombre>
+            <variedad>Champoo</variedad>
+            <ciudad>China</ciudad>
+            <color>Marron</color>
+            <riego>Diario</riego>
+            <precio>2,50</precio>
+        </arbol>
+    </maduracion>
+
+    <maduracion nombre = 'Agosto'>
+        <arbol>
+            <nombre>Litchi</nombre>
+            <variedad>Mauritius</variedad>
+            <ciudad>Florida</ciudad>
+            <color>Rojo</color>
+            <riego>Diario</riego>
+            <precio>3</precio>
+        </arbol>
+    </maduracion>
+</programa>

@@ -1,0 +1,3 @@
+﻿  TiemposProcesoC.cpp
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\ProgramacionServiciosProcesos\TiemposProcesoC\TiemposProcesoC.cpp(13,15): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+  TiemposProcesoC.vcxproj -> C:\Users\Rodrigo\OneDrive\Documents\AAClase2\ProgramacionServiciosProcesos\TiemposProcesoC\x64\Debug\TiemposProcesoC.exe

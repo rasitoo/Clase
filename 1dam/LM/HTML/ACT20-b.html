@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        function getParameterByName(name) {
+          name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+          var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+          results = regex.exec(location.search);
+          return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+        }
+        function getQueryVariable(variable) {
+            var query = window.location.search.substring(1);
+            var vars = query.split("&");
+            for (var i=0; i < vars.length; i++) {
+                var pair = vars[i].split("=");
+                 if(pair[0] == variable) {
+                 return pair[1];
+                }
+            }
+            return false;
+        }
+        </script>
+</head>
+<body>
+    <h1>Hola</h1>
+    sadfas
+    <script>
+let d = new Date();
+let nombre  = getParameterByName('Nombre');
+let miApellido  = getQueryVariable('apellido1');
+let correo = getParameterByName('email');
+document.body.innerHTML = "<h2>Hora:  " + d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds() +"</h2>"+
+"<br>"+ " HOLA: "+nombre+
+"<br>"+ "SALUDOS:"+miApellido +
+"<br>"+ "EMAIL: " + correo
+    
+"</h2>"
+    </script>    
+</body>
+</html>

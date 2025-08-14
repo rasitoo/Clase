@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Formulario24</string>
+    <string name="una_foto_de_perfil">Una foto de perfil</string>
+    <string name="nombre">Nombre</string>
+    <string name="email">Email</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="profesor">Profesor</string>
+    <string name="estudiante">Estudiante</string>
+</resources>

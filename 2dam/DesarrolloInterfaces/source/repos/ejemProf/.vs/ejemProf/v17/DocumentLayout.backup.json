@@ -1,0 +1,73 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\ejemProf\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F668675C-BCAA-4CB6-8B94-8794739DBB47}|ejemProf.csproj|c:\\users\\rodrigo\\onedrive\\documents\\aaclase2\\desarrollointerfaces\\source\\repos\\ejemprof\\presenters\\mainpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F668675C-BCAA-4CB6-8B94-8794739DBB47}|ejemProf.csproj|solutionrelative:presenters\\mainpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F668675C-BCAA-4CB6-8B94-8794739DBB47}|ejemProf.csproj|c:\\users\\rodrigo\\onedrive\\documents\\aaclase2\\desarrollointerfaces\\source\\repos\\ejemprof\\views\\mainview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F668675C-BCAA-4CB6-8B94-8794739DBB47}|ejemProf.csproj|solutionrelative:views\\mainview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F668675C-BCAA-4CB6-8B94-8794739DBB47}|ejemProf.csproj|c:\\users\\rodrigo\\onedrive\\documents\\aaclase2\\desarrollointerfaces\\source\\repos\\ejemprof\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F668675C-BCAA-4CB6-8B94-8794739DBB47}|ejemProf.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPresenter.cs",
+              "DocumentMoniker": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\ejemProf\\Presenters\\MainPresenter.cs",
+              "RelativeDocumentMoniker": "Presenters\\MainPresenter.cs",
+              "ToolTip": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\ejemProf\\Presenters\\MainPresenter.cs",
+              "RelativeToolTip": "Presenters\\MainPresenter.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T12:13:53.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\ejemProf\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\ejemProf\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAA0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T12:10:35.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainView.cs",
+              "DocumentMoniker": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\ejemProf\\Views\\MainView.cs",
+              "RelativeDocumentMoniker": "Views\\MainView.cs",
+              "ToolTip": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\ejemProf\\Views\\MainView.cs",
+              "RelativeToolTip": "Views\\MainView.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAswAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T12:05:22.205Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RepasoRecu</string>
+
+    <string-array name="categoria_array">
+        <item>Camion</item>
+        <item>Coche</item>
+        <item>Moto</item>
+    </string-array>
+</resources>

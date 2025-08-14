@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;/*Fuente del texto*/
+    background-color: #f6f0f0; /*color del fondo, ligeramente rojizo salmón*/
+}
+h1{
+    font-family: sans-serif; /*Fuene de la letra*/
+    padding-left: 5px; /*Ligero espacio a la izquierda*/
+}
+article.contenido{
+    margin-top: 60px; /*Margen que evita la sobreposición del cabecero sobre el texto*/
+    position:absolute; /*Permite eliminarlo del flujo normal del documento para posicionarlo como queramos*/
+}
+ul {
+    list-style-type:circle; /*Lista de circulos*/
+    padding-left: 30px; /*Espacio a la izquierda de la lista*/
+}
+li {
+    padding-left: 5px; /*Espacio de la lista hasta su circulo*/
+    margin-bottom: 10px; /*Separacion entre elementos de la lista*/ 
+    font-size: 18px; /*Tamaño de la letra*/
+    color: #333; /*Color de la letra*/
+}
+li > ul{
+    list-style-type: disc; /*La lista anidada tendrá un disco relleno*/
+    max-width: 500px; /*Tamaño máximo de la lista anidada*/
+}
+li > ul :last-of-type{
+    list-style-image:url(../media/check.png); /*El simbolo de este elemento es un check*/
+    margin-bottom: 20px; /*Ligero espacio en la parte inferior*/
+}
+.imagen1{
+    float: left; /*Imagen a la izquierda del texto*/
+    height: 150px;/*Altura de la imagen*/
+    width: 200px; /*Anchura de la imagen*/
+    position:relative; /*Posicion de la imagen*/
+    padding-right: 40px;   /*Separacion del borde de la pagina*/
+}
+.imagen2{
+    float: right; /*Imagen flota a la derecha*/
+    width: 400px; /*Tamaño de la imagen*/
+    position:absolute; /*PAra moverla sin que deje un hueco en el texto*/
+    right:-450px; /*Posicion de la imagen*/
+}

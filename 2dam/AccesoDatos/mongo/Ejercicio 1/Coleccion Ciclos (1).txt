@@ -1,0 +1,70 @@
+db.ciclos.insertMany([
+  {
+    "_id": "1",
+    "Nombre": "DAM",
+    "Grupo": 1,
+    "NumAlumnos": 2,
+    "Nivel": "Medio", 
+    "Alumnos": [
+      {
+        "Nombre": "Carlos",
+        "Edad": 23
+      },
+      {
+        "Nombre": "Sandra",
+        "Edad": 25
+      }
+    ]
+  },
+  {
+    "_id": "2",
+    "Nombre": "DAW",
+    "Grupo": 1,
+    "NumAlumnos": 2,
+   "Nivel": "Medio", 
+    "Alumnos": [
+      {
+        "Nombre": "Fernando",
+        "Edad": 23
+      },
+      {
+        "Nombre": "Julian",
+        "Edad": 28
+      }
+    ]
+  },
+  {
+    "_id": "3",
+    "Nombre": "ASIR",
+    "Grupo": 1,
+    "NumAlumnos": 2,
+     "Nivel": "Bajo", 
+    "Alumnos": [
+      {
+        "Nombre": "Jose Carlos",
+        "Edad": 20
+      },
+      {
+        "Nombre": "Isabel",
+        "Edad": 24
+      }
+    ]
+  },
+  {
+    "_id": "4",
+    "Nombre": "DAM",
+    "Grupo": 2,
+    "NumAlumnos": 2,
+    "Nivel": "Alto", 
+    "Alumnos": [
+      {
+        "Nombre": "Juan",
+        "Edad": 22
+      },
+      {
+        "Nombre": "Carmen",
+        "Edad": 18
+      }
+    ]
+  }
+]);

@@ -1,0 +1,39 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Operaciones ope = new Operaciones();
+        Scanner scanner = new Scanner(System.in);
+
+        while (true) {
+            System.out.println("\nSeleccione una opción:");
+            System.out.println("1. Insertar Ciclos");
+            System.out.println("2. Consultar todos los Ciclos");
+            System.out.println("3. Buscar Ciclo por Nombre");
+            System.out.println("4. Salir");
+
+            int opcion = scanner.nextInt();
+            scanner.nextLine(); // Limpiar el buffer
+
+            switch (opcion) {
+                case 1:
+                    ope.insertarCiclos();
+                    break;
+                case 2:
+                    ope.consultarCiclos();
+                    break;
+                case 3:
+                    System.out.print("Ingrese el nombre del ciclo a buscar: ");
+                    String nombre = scanner.nextLine();
+                    ope.buscarCicloPorNombre(nombre);
+                    break;
+                case 4:
+                    ope.cerrarConexion();
+                    System.out.println("Conexión cerrada. Saliendo...");
+                    return;
+                default:
+                    System.out.println("Opción inválida. Intente de nuevo.");
+            }
+        }
+    }
+}

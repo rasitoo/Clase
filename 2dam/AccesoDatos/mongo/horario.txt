@@ -1,0 +1,5 @@
+terminar mongo 20 min
+xquery 17:20-18:20 + 8min
+conexión mongo 18:20-19:20
+conexión xquery 19:20- 20
+Beans 20-21

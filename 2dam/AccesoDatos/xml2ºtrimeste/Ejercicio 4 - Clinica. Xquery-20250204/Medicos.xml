@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<medicos>
+  <medico id="1">
+    <nombre>Dr. Carlos Fernandez</nombre>
+    <especialidad>Cardiología</especialidad>
+    <hospital_id>H1</hospital_id>
+  </medico>
+  <medico id="2">
+    <nombre>Dr. Ana Sierra</nombre>
+    <especialidad>Pediatría</especialidad>
+    <hospital_id>H2</hospital_id>
+  </medico>
+  <medico id="3">
+    <nombre>Dr. Luis Gomez</nombre>
+    <especialidad>Neurología</especialidad>
+    <hospital_id>H3</hospital_id>
+  </medico>
+  <medico id="4">
+    <nombre>Dr. Encarna Lopez</nombre>
+    <especialidad>Oncología</especialidad>
+    <hospital_id>H4</hospital_id>
+  </medico>
+  <medico id="5">
+    <nombre>Dr. Juan Carlos Perez</nombre>
+    <especialidad>Ginecología</especialidad>
+    <hospital_id>H5</hospital_id>
+  </medico>
+</medicos>

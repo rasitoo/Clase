@@ -1,0 +1,38 @@
+db.productos.insertMany([
+{
+  "nombre": "Camisa",
+  "descripcion": "Camisa de algodón",
+  "precio": 25.99,
+  "inventario": 10
+},
+{
+  "nombre": "Pantalón",
+  "descripcion": "Pantalón de mezclilla",
+  "precio": 39.99,
+  "inventario": 5
+},
+{
+  "nombre": "Calcetines",
+  "descripcion": "Calcetines de lana",
+  "precio": 7.99,
+  "inventario": 20
+},
+{
+  "nombre": "Chaqueta",
+  "descripcion": "Chaqueta deportiva",
+  "precio": 27.33,
+  "inventario": 50
+},
+{
+  "nombre": "Camisa",
+  "descripcion": "Camisas deportiva",
+  "precio": 34,55,
+  "inventario": 45
+},
+{
+  "nombre": "Pijama",
+  "descripcion": "Pijama de tela",
+  "precio": 27.29,
+  "inventario": 22
+}
+]);

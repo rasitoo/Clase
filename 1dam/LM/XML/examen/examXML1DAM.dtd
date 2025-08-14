@@ -1,0 +1,22 @@
+<!ELEMENT trayecto ((usuario | anonimo),puntoOrigen,puntoIntermedio+,puntoDestino,resumen?)>
+<!ATTLIST trayecto dificultad (fácil | medio | difícil) #REQUIRED >
+<!ELEMENT usuario (codigoUsuario,nombre?)>
+<!ATTLIST usuario preferente (true | false) #REQUIRED >
+<!ELEMENT codigoUsuario (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT anonimo EMPTY>
+<!ATTLIST anonimo sinNombre (true | false) #REQUIRED >
+<!ELEMENT puntoOrigen (pais,latitud, longitud)>
+<!ATTLIST puntoOrigen ciudad CDATA #IMPLIED >
+<!ELEMENT pais (#PCDATA)>
+<!ATTLIST pais ciudad CDATA #IMPLIED >
+<!ELEMENT puntoIntermedio (latitud, longitud)>
+<!ATTLIST puntoIntermedio ciudad CDATA #IMPLIED >
+<!ELEMENT puntoDestino (latitud, longitud)>
+<!ATTLIST puntoDestino ciudad CDATA #IMPLIED >
+<!ELEMENT resumen (distancia?, mejorCiudad?)>
+<!ELEMENT distancia (#PCDATA) >
+<!ATTLIST distancia unidades (m | km) #REQUIRED >
+<!ELEMENT mejorCiudad (#PCDATA) >
+<!ELEMENT latitud (#PCDATA) >
+<!ELEMENT longitud (#PCDATA)>

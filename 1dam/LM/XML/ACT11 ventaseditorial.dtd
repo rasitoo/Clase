@@ -1,0 +1,16 @@
+<!ELEMENT informe (Cabecera, Datos)>
+<!ELEMENT Cabecera (Titulo?,Desc?,Fecha)>
+<!ELEMENT Titulo (#PCDATA)>
+<!ELEMENT Desc (#PCDATA)>
+<!ELEMENT Fecha EMPTY>
+<!ATTLIST Fecha
+    Day CDATA #REQUIRED
+    Month CDATA #REQUIRED
+    Year CDATA #REQUIRED>
+<!ELEMENT Datos (Region, Trimestre+)>
+<!ELEMENT Region (#PCDATA)>
+<!ELEMENT Trimestre  (Ventas)>
+<!ATTLIST Trimestre 
+    numero (1|2|3|4) #REQUIRED>
+<!ATTLIST Ventas LibrosVendidos CDATA "NO_INFO">
+<!ELEMENT Ventas (#PCDATA)>

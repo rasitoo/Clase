@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clientes>
+  <cliente>
+    <cliente_id>201</cliente_id>
+    <producto_id>101</producto_id>
+    <pedido_id>1</pedido_id>
+    <fecha_pedido>2021-12-21</fecha_pedido>
+  </cliente>
+  <cliente>
+    <cliente_id>202</cliente_id>
+    <producto_id>102</producto_id>
+    <pedido_id>2</pedido_id>
+    <fecha_pedido>2021-12-23</fecha_pedido>
+  </cliente>
+  <cliente>
+    <cliente_id>203</cliente_id>
+    <producto_id>103</producto_id>
+    <pedido_id>3</pedido_id>
+    <fecha_pedido>2022-12-21</fecha_pedido>
+  </cliente>
+  <cliente>
+    <cliente_id>204</cliente_id>
+    <producto_id>104</producto_id>
+    <pedido_id>4</pedido_id>
+    <fecha_pedido>2022-12-12</fecha_pedido>
+  </cliente>
+  <cliente>
+    <cliente_id>205</cliente_id>
+    <producto_id>105</producto_id>
+    <pedido_id>5</pedido_id>
+    <fecha_pedido>2023-12-22</fecha_pedido>
+  </cliente>
+  <cliente>
+    <cliente_id>206</cliente_id>
+    <producto_id>106</producto_id>
+    <pedido_id>6</pedido_id>
+    <fecha_pedido>2023-12-11</fecha_pedido>
+  </cliente>
+  <cliente>
+    <cliente_id>207</cliente_id>
+    <producto_id>107</producto_id>
+    <pedido_id>7</pedido_id>
+    <fecha_pedido>2023-12-01</fecha_pedido>
+  </cliente>
+  <cliente>
+    <cliente_id>208</cliente_id>
+    <producto_id>108</producto_id>
+    <pedido_id>8</pedido_id>
+    <fecha_pedido>2024-12-01</fecha_pedido>
+  </cliente>
+  <cliente>
+    <cliente_id>209</cliente_id>
+    <producto_id>109</producto_id>
+    <pedido_id>9</pedido_id>
+    <fecha_pedido>2024-12-12</fecha_pedido>
+  </cliente>
+  <cliente>
+    <cliente_id>210</cliente_id>
+    <producto_id>110</producto_id>
+    <pedido_id>10</pedido_id>
+    <fecha_pedido>2024-12-16</fecha_pedido>
+  </cliente>
+</clientes>
+
+ 

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <pedidos>
+  <pedido>
+    <pedido_id>1</pedido_id>
+    <descripcion>Libros en papel</descripcion>
+    <cantidades_vendidas>50</cantidades_vendidas>
+    <stock_disponible>100</stock_disponible>
+  </pedido>
+  <pedido>
+    <pedido_id>2</pedido_id>
+    <descripcion>Portátiles</descripcion>
+    <cantidades_vendidas>30</cantidades_vendidas>
+    <stock_disponible>50</stock_disponible>
+  </pedido>
+  <pedido>
+    <pedido_id>3</pedido_id>
+    <descripcion>Televisores</descripcion>
+    <cantidades_vendidas>20</cantidades_vendidas>
+    <stock_disponible>60</stock_disponible>
+  </pedido>
+  <pedido>
+    <pedido_id>4</pedido_id>
+    <descripcion>Telefonos Fijos</descripcion>
+    <cantidades_vendidas>70</cantidades_vendidas>
+    <stock_disponible>120</stock_disponible>
+  </pedido>
+  <pedido>
+    <pedido_id>5</pedido_id>
+    <descripcion>Teléfonos Móviles</descripcion>
+    <cantidades_vendidas>10</cantidades_vendidas>
+    <stock_disponible>25</stock_disponible>
+  </pedido>
+  <pedido>
+    <pedido_id>6</pedido_id>
+    <descripcion>Camaras Digitales</descripcion>
+    <cantidades_vendidas>40</cantidades_vendidas>
+    <stock_disponible>80</stock_disponible>
+  </pedido>
+  <pedido>
+    <pedido_id>7</pedido_id>
+    <descripcion>Muebles de Oficina</descripcion>
+    <cantidades_vendidas>100</cantidades_vendidas>
+    <stock_disponible>200</stock_disponible>
+  </pedido>
+  <pedido>
+    <pedido_id>8</pedido_id>
+    <descripcion>Muebles de Cocina</descripcion>
+    <cantidades_vendidas>110</cantidades_vendidas>
+    <stock_disponible>26</stock_disponible>
+  </pedido>
+  <pedido>
+    <pedido_id>9</pedido_id>
+    <descripcion>Libros Digitales</descripcion>
+    <cantidades_vendidas>200</cantidades_vendidas>
+    <stock_disponible>20</stock_disponible>
+  </pedido>
+  <pedido>
+    <pedido_id>10</pedido_id>
+    <descripcion>Ratones</descripcion>
+    <cantidades_vendidas>230</cantidades_vendidas>
+    <stock_disponible>22</stock_disponible>
+  </pedido>
+</pedidos>

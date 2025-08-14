@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bdusers [
+<!ELEMENT bdusers (user)+>
+    <!ELEMENT user (name,email,bornDate)>
+    <!ATTLIST user
+    password CDATA #REQUIRED
+    dni CDATA #REQUIRED>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+    <!ELEMENT bornDate ANY>
+]>
+<bdusers>
+    <user password="1234" dni="12341234A">
+        <name>Pepe</name>
+        <email>34234@sfdsfd.es</email>
+        <bornDate>231q3324</bornDate>
+    </user>
+</bdusers>

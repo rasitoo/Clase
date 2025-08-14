@@ -1,0 +1,153 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+Serpiente <-- Obstaculo
+Serpiente <-- ServicioSerpiente
+Serpiente <-- Aceleracion
+Serpiente <-- Movimiento
+Fondo --> Vista
+Serpiente --> Vista
+MenuPrincipal <-- Vista
+Vista <-- ServicioVista
+
+class Serpiente extends JPanel {
+    -private final Vista vista;
+    -private Color colorserpiente
+    -private Color colorfuturoobstaculo
+    -private ImageIcon imgComida
+    -private ImageIcon imgObst
+    -private int tammax
+    -private int tam
+    -private int can
+    -private int res
+    -private List<int[]> serpiente
+    -private int[] comida
+    -private List<int[]> obstaculo
+    -private List<int[]> futuroobstaculo
+    -private int numCuadrados
+    -private int numFuturosCuadrados
+    -private String dir
+    -private String cambiodir
+    -private int puntuacion
+    -private boolean choque
+    -private Thread movim
+    -private Movimiento mov
+    -private Thread obst
+    -private Obstaculo obstaculo1
+    -private Thread acele
+    -private Aceleracion aceleracion
+    +public Color getColorfuturoobstaculo()
+    +public Color getColorserpiente()
+    +public Thread getMovim()
+    +public Aceleracion getAceleracion()
+    +public Obstaculo getObstaculo1()
+    +public boolean isChoque()
+    +public int getPuntuacion()
+    +public int getNumFuturosCuadrados()
+    +public int getCan()
+    +public int getTammax()
+    +public List<int[]> getSerpiente()
+    +public void setSerpiente(List<int[]> serpiente)
+    +public int[] getComida()
+    +public void setComida(int[] comida)
+    +public List<int[]> getObstaculo()
+    +public void setObstaculo(List<int[]> obstaculo)
+    +public List<int[]> getFuturoobstaculo()
+    +public void setFuturoobstaculo(List<int[]> futuroobstaculo)
+    +public String getDir()
+    +public void setDir(String)
+    +public Vista getVista()
+    +public void setCambiodir(String cambiodir)
+    +public Serpiente(int tammax, int can, Vista vista)
+    +public void paint(Graphics g)
+
+}
+
+class ServicioSerpiente{
+    -private Serpiente serpiente
+    +public ServicioSerpiente(Serpiente serpiente)
+    +public int[] direccion(int[] ultimo)
+    +public int[] comprobarBordeSerpiente(int x, int y)
+    +public int[] comprobarBordeObstaculo(int x, int y)
+    +public void accionChoque(int[] nuevo)
+    +public Polygon crearCabeza(int i)
+    +public void avanzar()
+    +public void generarComida()
+    +public void generarObstaculo()
+}
+
+class Aceleracion implements Runnable {
+    -private Movimiento movimiento;
+    -private Aceleracion(Movimiento movimiento)
+    +public void run()
+}
+
+class Obstaculo implements Runnable {
+    -private Serpiente serpiente
+    -private boolean generar
+    +public setGenerar(boolean generar))
+    +public Obstaculo(Serpiente serpiente)
+    +public void run()
+}
+
+class Movimiento implements Runnable {
+    -private Serpiente serpiente
+    -private int VELOCIDAD
+    +public void setVelocidad(int VELOCIDAD)
+    +public int getVelocidad()
+    -private boolean movimiento
+    +public Movimiento(Serpiente serpiente)
+    +public void run()
+    +public void parar()
+
+}
+
+class Fondo extends JPanel {
+    -private Color colorFondo
+    -private int tamMax
+    -private int tam
+    -private int can
+    -private int res
+    +public Color getColorFondo()
+    +public int getTamMax()
+    +public int getTam()
+    +public int getCan()
+    +public int getRes()
+    +public Fondo(int tamMax, int can)
+    +public void paint(Graphics g)
+}
+
+class Vista extends JFrame {
+    -private int ancho
+    -private int alto
+    -private Serpiente serpiente
+    -private Fondo fondo
+    -private JTextField puntuacion
+    -private JPanel panelpuntuacion
+    +public JTextField getPuntuacion()
+    -private ServicioVista servicio
+    +public Serpiente getSerpiente()
+    +public Vista(String tituloVentana, int ancho, String dificultad)
+    +public void actualizarPuntuacion(int puntuacion)
+    -private void initComponents()
+    +public static void main(String args[])
+}
+
+class ServicioVista {
+    -private Vista vista
+    +public ServicioVista(Vista vista)
+    +public void tecla(KeyEvent event)
+}
+
+class MenuPrincipal extends javax.swing.JFrame{
+    +public static void menu()
+    +public static void menuDificultades(JFrame ventana)
+    -private static JFrame crearVentana(String titulo, int ancho, int alto)
+    -private static void ponerImagenFondo(JFrame ventana, String imagePath)
+    -private static void ponerCursor(JFrame ventana)
+    -private static JButton crearBoton(String texto, int altura, Color colorLetra, Font estilo)
+    -private static void DificultadActionListeners(JFrame ventanaDificultades, JButton boton, JButton boton2)
+    +public static void main(String[] args)
+}
+
+@enduml

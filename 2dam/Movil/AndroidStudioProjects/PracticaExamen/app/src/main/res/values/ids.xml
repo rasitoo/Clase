@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="frameLayout" type="id" />
+    <item name="textView2" type="id" />
+    <item name="textView" type="id" />
+    <item name="textView3" type="id" />
+    <item name="cardView" type="id" />
+    <item name="linearLayout" type="id" />
+    <item name="imageView" type="id" />
+    <item name="textView4" type="id" />
+    <item name="textView6" type="id" />
+    <item name="textView7" type="id" />
+    <item name="cardView2" type="id" />
+    <item name="imageView2" type="id" />
+    <item name="textView8" type="id" />
+    <item name="textView9" type="id" />
+    <item name="cardView3" type="id" />
+    <item name="imageView3" type="id" />
+    <item name="textView11" type="id" />
+    <item name="textView10" type="id" />
+    <item name="frameLayout3" type="id" />
+    <item name="imageView4" type="id" />
+    <item name="textView15" type="id" />
+    <item name="buttonFin" type="id" />
+    <item name="button13" type="id" />
+    <item name="button14" type="id" />
+    <item name="button22" type="id" />
+    <item name="button21" type="id" />
+    <item name="textView12" type="id" />
+    <item name="editTextDate" type="id" />
+    <item name="textView13" type="id" />
+    <item name="editTextNumber" type="id" />
+    <item name="textView14" type="id" />
+</resources>

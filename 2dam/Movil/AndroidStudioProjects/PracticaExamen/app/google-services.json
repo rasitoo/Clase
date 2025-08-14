@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "664085659197",
+    "project_id": "practicaexamen-f3a23",
+    "storage_bucket": "practicaexamen-f3a23.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:664085659197:android:7740a6b12a623305d5f454",
+        "android_client_info": {
+          "package_name": "com.example.practicaexamen"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0sCl2fXo_FgdCjN0ddYXQVgQvBOA7t3Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,44 @@
+ public void insertarCiclos() {
+    
+        Document ciclo1 = new Document("_id", "1")
+                .append("Nombre", "DAM")
+                .append("Grupo", 1)
+                .append("NumAlumnos", 2)
+                .append("Nivel", "Medio")
+                .append("Alumnos", Arrays.asList(
+                        new Document("Nombre", "Carlos").append("Edad", 23),
+                        new Document("Nombre", "Sandra").append("Edad", 25)
+                ));
+
+        Document ciclo2 = new Document("_id", "2")
+                .append("Nombre", "DAW")
+                .append("Grupo", 1)
+                .append("NumAlumnos", 2)
+                .append("Nivel", "Medio")
+                .append("Alumnos", Arrays.asList(
+                        new Document("Nombre", "Fernando").append("Edad", 23),
+                        new Document("Nombre", "Julian").append("Edad", 28)
+                ));
+
+        Document ciclo3 = new Document("_id", "3")
+                .append("Nombre", "ASIR")
+                .append("Grupo", 1)
+                .append("NumAlumnos", 2)
+                .append("Nivel", "Bajo")
+                .append("Alumnos", Arrays.asList(
+                        new Document("Nombre", "Jose Carlos").append("Edad", 20),
+                        new Document("Nombre", "Isabel").append("Edad", 24)
+                ));
+
+        Document ciclo4 = new Document("_id", "4")
+                .append("Nombre", "DAM")
+                .append("Grupo", 2)
+                .append("NumAlumnos", 2)
+                .append("Nivel", "Alto")
+                .append("Alumnos", Arrays.asList(
+                        new Document("Nombre", "Juan").append("Edad", 22),
+                        new Document("Nombre", "Carmen").append("Edad", 18)
+                ));
+
+
+}

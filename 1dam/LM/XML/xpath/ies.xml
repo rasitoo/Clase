@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ies>
+  <nombre>IES Luis Vives</nombre>
+  <web>http://www.iesluisvives.es/</web>
+  <ciclos>
+    <ciclo id="ASIR">
+      <nombre>Administración de Sistemas Informáticos en Red</nombre>
+      <grado>Superior</grado>
+      <decretoTitulo year="2009" />
+    </ciclo>
+    <ciclo id="DAW">
+      <nombre>Desarrollo de Aplicaciones Web</nombre>
+      <grado>Superior</grado>
+      <decretoTitulo year="2010" />
+    </ciclo>
+    <ciclo id="SMR">
+      <nombre>Sistemas Microinformáticos y Redes</nombre>
+      <grado>Medio</grado>
+      <decretoTitulo year="2008" />
+    </ciclo>
+  </ciclos>
+  <modulos>
+    <modulo id="0228">
+      <nombre>Aplicaciones web</nombre>
+      <curso>2</curso>
+      <horasSemanales>4</horasSemanales>
+      <ciclo>SMR</ciclo>
+    </modulo>
+    <modulo id="0372">
+      <nombre>Gestión de bases de datos</nombre>
+      <curso>1</curso>
+      <horasSemanales>5</horasSemanales>
+      <ciclo>ASIR</ciclo>
+    </modulo>
+    <modulo id="0373">
+      <nombre>Lenguajes de marcas y sistemas de gestión de información</nombre>
+      <curso>1</curso>
+      <horasSemanales>3</horasSemanales>
+      <ciclo>ASIR</ciclo>
+      <ciclo>DAW</ciclo>
+    </modulo>
+    <modulo id="0376">
+      <nombre>Implantación de aplicaciones web</nombre>
+      <curso>2</curso>
+      <horasSemanales>5</horasSemanales>
+      <ciclo>ASIR</ciclo>
+    </modulo>
+  </modulos>
+</ies>
+<!--
+   • Nombre de los ciclos formativos
+
+   //ciclo/nombre
+ -->
+<!--
+ • Nombre del ciclo cuyo decreto es de 2010 
+ 
+   //decretoTitulo[@year='2010']/parent::*/nombre
+ -->
+<!--
+ • Nombre de los ciclos que incluyen el módulo 
+"Lenguajes de marcas y sistemas de gestión de 
+información“
+
+  //modulo[nombre="Lenguajes de marcas y sistemas de gestión de información"]/ciclo
+ -->
+<!--
+• Año del decreto de los ciclos que tengan un 
+módulo de más de 4 horas semanales
+
+  //ciclo[@id=//modulo[horasSemanales>4]/ciclo]/decretoTitulo/@year
+ -->
+<!--
+ • Grado de los ciclos con módulos de primer 
+curso
+
+  //ciclo[@id=//modulo[curso=1]/ciclo]/grado/text()
+ -->

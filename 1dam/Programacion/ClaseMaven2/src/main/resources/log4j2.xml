@@ -1,0 +1,22 @@
+<Configuration status="WARN">
+    <Properties>
+        <Property name="miLayout">"%d [%t] %-5level %logger{36} - %msg%n%throwable" </Property>
+    </Properties>
+    <Appenders>
+        <Console name="ConsoleAppender" target="SYSTEM_OUT">
+            <LevelRangeFilter minLevel="WARN" maxLevel="ERROR" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout pattern="${miLayout}" />
+        </Console>
+        <File name="FileAppender" fileName="milog4j2.log">
+            <PatternLayout pattern="%d  %p %c{1.} [%t] %m%n"/>
+        </File>
+    </Appenders>
+    <Loggers>
+        <Logger name="ClasePrincipal" level="all" additivity="false">
+            <AppenderRef ref="FileAppender"/>
+        </Logger>
+        <Root level="ERROR">
+            <AppenderRef ref="ConsoleAppender"/>
+        </Root>
+    </Loggers>
+</Configuration>

@@ -1,0 +1,16 @@
+<resources>
+    <array name="planeta_array">
+        <item>Mercurio</item>
+        <item>Venus</item>
+        <item>Tierra</item>
+        <item>Marte</item>
+        <item>Jupiter</item>
+        <item>Saturno</item>
+        <item>Urano</item>
+        <item>Neptuno</item>
+    </array>
+    <string name="app_name">Spinner</string>
+    <string name="button">Button</string>
+    <string name="textview">TextView</string>
+    <string name="spinner">Spinner</string>
+</resources>

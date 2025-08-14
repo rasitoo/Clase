@@ -1,0 +1,13 @@
+ul{
+    column-count: 3;
+    list-style: none;
+    column-rule: 2px solid gray;
+    column-gap: 10px;
+}
+li{
+    color: blue;
+    padding: 20PX;
+}
+h1{
+    text-align: center;
+}

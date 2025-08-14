@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/inicio.css">
+    <title>MarteXplorer</title>
+</head>
+<body>
+    <section class="header">
+        <div class="header_izquierda">
+            <a href="01inicio.html"><img class="imagenMarte" src="https://pngimg.com/uploads/mars_planet/mars_planet_PNG28.png" alt="Imagen de Marte">
+            </a>
+        </div>
+        <h2>MarteXplorer</h2>
+        <div class="header_derecha">
+            <a href="PasosParaIrAMarte.html" class="boton">📋Pasos</a>
+
+            <a href="VentajasDeIrAMarte.html" class="boton">💹Ventajas</a>
+
+            <a href="tabla.html" class="boton">💸Precios</a>
+
+            <a href="informacion.html" class="boton">🍳Información</a>
+
+            <a href="Suscripcion.html" class="boton">🧑‍🚀Usuarios</a>
+        </div>
+    </section>
+    <article>
+        <h1>Bienvenido a MarteXplorer: Descubre el Planeta Rojo 🚀🔴</h1>
+        <div class="imagen">
+            <img src="https://th.bing.com/th/id/R.88679983d8d78bcc8e9eb564bd5aede6?rik=v53Qd1G43YSJbQ&pid=ImgRaw&r=0" alt="Astronautas ficticios en Marte" width="300">
+        </div>
+        <p>En <span class="resaltado">MarteXplorer</span>, somos pioneros en la exploración y colonización de Marte. Nuestra pasión es llevar a los aventureros más allá de los confines de la Tierra y sumergirlos en la maravilla de este mundo vecino. Con décadas de experiencia en la industria espacial, nuestro equipo de científicos, ingenieros y apasionados por el espacio está comprometido con hacer realidad tus sueños de viajar a Marte.</p>
+        <h3>¿Qué ofrecemos?</h3>
+        <ol>
+            <li>Viajes Épicos: Imagina estar a millones de kilómetros de casa, caminando sobre la superficie marciana, viendo sus montañas, cañones y paisajes únicos. Ofrecemos viajes inolvidables para exploradores intrépidos.</li>
+            <li>Colonización Sostenible: No solo visitamos Marte, sino que también estamos construyendo las bases para una colonia autosuficiente. Únete a nosotros en esta emocionante misión de establecer una presencia humana permanente en el Planeta Rojo.</li>
+            <li>Tecnología Avanzada: Nuestras naves espaciales están equipadas con la última tecnología en propulsión, hábitats espaciales y sistemas de soporte vital. Tu seguridad y comodidad son nuestra prioridad.</li>
+            <li>Seguridad incuestionable: Nunca hemos tenido un accidente en nuestros numerosos (0) viajes a marte, mantén la calma y disfruta del espacio con nosotros, además, tendrás catering a bordo y disfrutarás de nuestro famoso helado espacial.</li>
+        </ol>
+        <h3>Únete a la Aventura</h3>
+        <p>¿Estás listo para ser parte de la historia? <a href="Suscripcion.html" class="boton">Reserva tu asiento</a> en nuestra próxima misión y prepárate para explorar el Planeta Rojo como nunca antes.</p>
+        <iframe class="videonasa" width="560" height="315" src="https://www.youtube-nocookie.com/embed/5GrPwHrc3HI?si=LlBqfTpx3n6rEXxP&amp;controls=0&amp;start=97" title="Vídeo del lanzamiento de un transbordador espacial de la nasa"></iframe>
+        <h3>Curiosidad</h3>
+        <p>¿Alguna vez te has preguntado como se oye marte? <br>
+            ¡¡Gracias a la nasa podemos saberlo!!
+        </p>
+        <audio controls class="audio" src="./media/Nasa.mp3">Audio de los sonidos de marte</audio>
+        <h4>Si quieres conocer más curiosidades te recomendamos suscribirte a nuestra newsletter</h4>
+        <div class="suscripcion">
+            <h2>¡Únete a la Aventura Espacial!</h2>
+            <p>Regístrate para recibir actualizaciones sobre nuestras próximas misiones al espacio exterior.</p>
+            <form id="mensajeconfirmacion" onsubmit="return confirmacion()">
+                <input type="email" name="email" placeholder="Tu correo electrónico" required>
+                <button type="submit">¡Suscríbete Ya!</button>
+            </form>
+        </div>
+    </article>
+    <script>
+        function confirmacion(){
+            // Crea una alerta agradeciendo por la suscripción
+            mensajeconfirmacion = alert("¡Gracias por suscribirte a la newsletter de MarteXplorer! Pronto recibirás actualizaciones sobre nuestras emocionantes misiones al Planeta Rojo. 🚀🔴")
+        }
+        
+
+    </script>
+</body>
+</html>

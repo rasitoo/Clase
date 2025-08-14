@@ -1,0 +1,16 @@
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\WinFormsExamenRodrigoTapiador\bin\Debug\net8.0-windows\WinFormsExamenRodrigoTapiador.exe
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\WinFormsExamenRodrigoTapiador\bin\Debug\net8.0-windows\WinFormsExamenRodrigoTapiador.deps.json
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\WinFormsExamenRodrigoTapiador\bin\Debug\net8.0-windows\WinFormsExamenRodrigoTapiador.runtimeconfig.json
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\WinFormsExamenRodrigoTapiador\bin\Debug\net8.0-windows\WinFormsExamenRodrigoTapiador.dll
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\WinFormsExamenRodrigoTapiador\bin\Debug\net8.0-windows\WinFormsExamenRodrigoTapiador.pdb
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\WinFormsExamenRodrigoTapiador\obj\Debug\net8.0-windows\WinFormsExamenRodrigoTapiador.csproj.GenerateResource.cache
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\WinFormsExamenRodrigoTapiador\obj\Debug\net8.0-windows\WinFormsExamenRodrigoTapiador.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\WinFormsExamenRodrigoTapiador\obj\Debug\net8.0-windows\WinFormsExamenRodrigoTapiador.AssemblyInfoInputs.cache
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\WinFormsExamenRodrigoTapiador\obj\Debug\net8.0-windows\WinFormsExamenRodrigoTapiador.AssemblyInfo.cs
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\WinFormsExamenRodrigoTapiador\obj\Debug\net8.0-windows\WinFormsExamenRodrigoTapiador.csproj.CoreCompileInputs.cache
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\WinFormsExamenRodrigoTapiador\obj\Debug\net8.0-windows\WinFormsExamenRodrigoTapiador.dll
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\WinFormsExamenRodrigoTapiador\obj\Debug\net8.0-windows\refint\WinFormsExamenRodrigoTapiador.dll
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\WinFormsExamenRodrigoTapiador\obj\Debug\net8.0-windows\WinFormsExamenRodrigoTapiador.pdb
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\WinFormsExamenRodrigoTapiador\obj\Debug\net8.0-windows\WinFormsExamenRodrigoTapiador.genruntimeconfig.cache
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\WinFormsExamenRodrigoTapiador\obj\Debug\net8.0-windows\ref\WinFormsExamenRodrigoTapiador.dll
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\WinFormsExamenRodrigoTapiador\obj\Debug\net8.0-windows\WinFormsExamenRodrigoTapiador.Views.MainView.resources

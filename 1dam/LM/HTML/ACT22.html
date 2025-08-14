@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Actiividad 22</h1>
+    <canvas id="miLienzo" width="300" height="100" style="border:1px solid #0979b0;">
+        Your browser does not support the HTML canvas tag.
+        </canvas>
+        <script>
+          var lienzo = document.getElementById("miLienzo");
+          if (canvas.getcontext){
+              var elem = lienzo.getContext("2d");
+              elemen.lineWidth = 5;
+              elem.beginPath();
+              elem.moveTo(40,0);
+              elem.lineTo(0,100);
+              elem.arc(150,150,150,0,2 * Math.Pi);
+              elem.stroke();
+          }
+          </script>
+</body>
+</html>

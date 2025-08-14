@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #e17171; /* Color de fondo pastel */
+    background-image: url('https://img.freepik.com/foto-gratis/fondo-pantalla-abstracto-nebulosa-ultra-detallado-4_1562-749.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1708732800&semt=ais');
+    background-size: cover; /* ayuda a ajustar el tamaño del fondo en este casouna imagen a que se adapte  la ventana */
+    background-repeat: no-repeat; /* principalmente paraque no se repita el fondo porque es una imagen */
+    background-attachment: fixed; /* ayuda a que el fonde se quede estatico para que al dezplazarte no se mueva la imagen*/
+}
+.cajatexto {
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #3f53ad; /* Color de fondo del contenedor */
+    opacity: 0.5; /* Valor entre 0 (totalmente transparente) y 1 (sin transparencia) */
+
+}
+h1{
+    text-align: center;
+}
+h2,p{
+    text-align: left;
+}

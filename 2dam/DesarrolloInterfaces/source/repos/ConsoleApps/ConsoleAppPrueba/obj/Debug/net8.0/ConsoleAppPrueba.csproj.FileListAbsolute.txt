@@ -1,0 +1,14 @@
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\ConsoleApps\ConsoleAppPrueba\bin\Debug\net8.0\ConsoleAppPrueba.exe
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\ConsoleApps\ConsoleAppPrueba\bin\Debug\net8.0\ConsoleAppPrueba.deps.json
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\ConsoleApps\ConsoleAppPrueba\bin\Debug\net8.0\ConsoleAppPrueba.runtimeconfig.json
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\ConsoleApps\ConsoleAppPrueba\bin\Debug\net8.0\ConsoleAppPrueba.dll
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\ConsoleApps\ConsoleAppPrueba\bin\Debug\net8.0\ConsoleAppPrueba.pdb
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\ConsoleApps\ConsoleAppPrueba\obj\Debug\net8.0\ConsoleAppPrueba.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\ConsoleApps\ConsoleAppPrueba\obj\Debug\net8.0\ConsoleAppPrueba.AssemblyInfoInputs.cache
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\ConsoleApps\ConsoleAppPrueba\obj\Debug\net8.0\ConsoleAppPrueba.AssemblyInfo.cs
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\ConsoleApps\ConsoleAppPrueba\obj\Debug\net8.0\ConsoleAppPrueba.csproj.CoreCompileInputs.cache
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\ConsoleApps\ConsoleAppPrueba\obj\Debug\net8.0\ConsoleAppPrueba.dll
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\ConsoleApps\ConsoleAppPrueba\obj\Debug\net8.0\refint\ConsoleAppPrueba.dll
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\ConsoleApps\ConsoleAppPrueba\obj\Debug\net8.0\ConsoleAppPrueba.pdb
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\ConsoleApps\ConsoleAppPrueba\obj\Debug\net8.0\ConsoleAppPrueba.genruntimeconfig.cache
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\ConsoleApps\ConsoleAppPrueba\obj\Debug\net8.0\ref\ConsoleAppPrueba.dll

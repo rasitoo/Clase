@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ciclos_formativos>
+    <departamento>
+        <nombre>Informatica</nombre>
+        <localidad>GUADALAJARA</localidad>
+        <empleados>25</empleados>
+    </departamento>
+    <departamento>
+        <nombre>Administracion</nombre>
+        <localidad>GUADALAJARA</localidad>
+        <empleados>30</empleados>
+    </departamento>
+    <departamento>
+        <nombre>Electricidad</nombre>
+        <localidad>MADRID</localidad>
+        <empleados>15</empleados>
+    </departamento>
+    <departamento>
+        <nombre>Mecanica</nombre>
+        <localidad>GUADALAJARA</localidad>
+        <empleados>10</empleados>
+    </departamento>
+    <departamento>
+        <nombre>Automocion</nombre>
+        <localidad>BARCELONA</localidad>
+        <empleados>20</empleados>
+    </departamento>
+    <departamento>
+        <nombre>Sanidad</nombre>
+        <localidad>GUADALAJARA</localidad>
+        <empleados>40</empleados>
+    </departamento>
+    <departamento>
+        <nombre>Marketing</nombre>
+        <localidad>VALENCIA</localidad>
+        <empleados>35</empleados>
+    </departamento>
+</ciclos_formativos>

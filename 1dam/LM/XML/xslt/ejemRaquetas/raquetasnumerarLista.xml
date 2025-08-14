@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="raquetasnumerarLista.xsl"?>
+<tienda>
+	<img size="90px">raqueta.jpg</img>
+	<raqueta>
+		<marca>BABOLAT</marca>
+		<modelo>PURE DRIVE</modelo>
+		<year>2012</year>
+	</raqueta>
+	<raqueta>
+		<marca>YONEX</marca>
+		<modelo>MPTOUR 5</modelo>
+		<year>1997</year>
+	</raqueta>
+	<raqueta>
+		<marca>WILSON</marca>
+		<modelo>HAMMER</modelo>
+		<year>2000</year>
+	</raqueta>
+</tienda>

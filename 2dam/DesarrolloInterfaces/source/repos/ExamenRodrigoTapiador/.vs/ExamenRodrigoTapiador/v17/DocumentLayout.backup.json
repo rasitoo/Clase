@@ -1,0 +1,83 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\ExamenRodrigoTapiador\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8EBBF58C-2AD1-4342-A42F-49D137B24D3A}|ExamenRodrigoTapiador.csproj|c:\\users\\rodrigo\\onedrive\\documents\\aaclase2\\desarrollointerfaces\\source\\repos\\examenrodrigotapiador\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8EBBF58C-2AD1-4342-A42F-49D137B24D3A}|ExamenRodrigoTapiador.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EBBF58C-2AD1-4342-A42F-49D137B24D3A}|ExamenRodrigoTapiador.csproj|c:\\users\\rodrigo\\onedrive\\documents\\aaclase2\\desarrollointerfaces\\source\\repos\\examenrodrigotapiador\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8EBBF58C-2AD1-4342-A42F-49D137B24D3A}|ExamenRodrigoTapiador.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EBBF58C-2AD1-4342-A42F-49D137B24D3A}|ExamenRodrigoTapiador.csproj|c:\\users\\rodrigo\\onedrive\\documents\\aaclase2\\desarrollointerfaces\\source\\repos\\examenrodrigotapiador\\ui\\themes\\resourcedictionary.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8EBBF58C-2AD1-4342-A42F-49D137B24D3A}|ExamenRodrigoTapiador.csproj|solutionrelative:ui\\themes\\resourcedictionary.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\ExamenRodrigoTapiador\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\ExamenRodrigoTapiador\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-07T09:44:59.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ResourceDictionary.xaml",
+              "DocumentMoniker": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\ExamenRodrigoTapiador\\UI\\Themes\\ResourceDictionary.xaml",
+              "RelativeDocumentMoniker": "UI\\Themes\\ResourceDictionary.xaml",
+              "ToolTip": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\ExamenRodrigoTapiador\\UI\\Themes\\ResourceDictionary.xaml",
+              "RelativeToolTip": "UI\\Themes\\ResourceDictionary.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-07T09:44:19.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\ExamenRodrigoTapiador\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Rodrigo\\OneDrive\\Documents\\AAClase2\\DesarrolloInterfaces\\source\\repos\\ExamenRodrigoTapiador\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-07T09:41:44.555Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

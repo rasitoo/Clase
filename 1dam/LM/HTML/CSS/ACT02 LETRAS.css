@@ -1,0 +1,9 @@
+.Mayus{
+    text-transform: uppercase;
+}
+#Cap{
+    text-transform: capitalize;
+}
+#Min{
+    text-transform: lowercase;
+}

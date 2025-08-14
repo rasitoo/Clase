@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bdcomponentes [
+    <!ELEMENT bdcomponentes (componente)+>
+    <!ELEMENT componente (nombre,(precio|precioiva),tipo+,medida)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT precio (#PCDATA)>
+    <!ELEMENT precioiva (#PCDATA)>
+    <!ELEMENT tipo (#PCDATA)>
+    <!ELEMENT medida (#PCDATA)>
+]>
+<bdcomponentes>
+    <componente>
+        <nombre>Tuerca</nombre>
+        <precioiva>0.10€</precioiva>
+        <tipo>redonda</tipo>
+        <tipo>pataata</tipo>
+        <medida>20 palmos</medida>
+    </componente>
+    <componente>
+        <nombre>Tornillo</nombre>
+        <precioiva>0.13€</precioiva>
+        <tipo>estrella</tipo>
+        <medida>21000 palmos</medida>
+    </componente>
+</bdcomponentes>

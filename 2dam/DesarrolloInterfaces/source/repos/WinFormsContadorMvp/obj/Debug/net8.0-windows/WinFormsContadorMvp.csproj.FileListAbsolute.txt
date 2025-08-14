@@ -1,0 +1,17 @@
+C:\Users\usuario\source\repos\WinFormsApps\WinFormsContadorMvp\bin\Debug\net8.0-windows\WinFormsContadorMvp.exe
+C:\Users\usuario\source\repos\WinFormsApps\WinFormsContadorMvp\bin\Debug\net8.0-windows\WinFormsContadorMvp.deps.json
+C:\Users\usuario\source\repos\WinFormsApps\WinFormsContadorMvp\bin\Debug\net8.0-windows\WinFormsContadorMvp.runtimeconfig.json
+C:\Users\usuario\source\repos\WinFormsApps\WinFormsContadorMvp\bin\Debug\net8.0-windows\WinFormsContadorMvp.dll
+C:\Users\usuario\source\repos\WinFormsApps\WinFormsContadorMvp\bin\Debug\net8.0-windows\WinFormsContadorMvp.pdb
+C:\Users\usuario\source\repos\WinFormsApps\WinFormsContadorMvp\obj\Debug\net8.0-windows\WinFormsContadorMvp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usuario\source\repos\WinFormsApps\WinFormsContadorMvp\obj\Debug\net8.0-windows\WinFormsContadorMvp.AssemblyInfoInputs.cache
+C:\Users\usuario\source\repos\WinFormsApps\WinFormsContadorMvp\obj\Debug\net8.0-windows\WinFormsContadorMvp.AssemblyInfo.cs
+C:\Users\usuario\source\repos\WinFormsApps\WinFormsContadorMvp\obj\Debug\net8.0-windows\WinFormsContadorMvp.csproj.CoreCompileInputs.cache
+C:\Users\usuario\source\repos\WinFormsApps\WinFormsContadorMvp\obj\Debug\net8.0-windows\WinFormsContadorMvp.dll
+C:\Users\usuario\source\repos\WinFormsApps\WinFormsContadorMvp\obj\Debug\net8.0-windows\refint\WinFormsContadorMvp.dll
+C:\Users\usuario\source\repos\WinFormsApps\WinFormsContadorMvp\obj\Debug\net8.0-windows\WinFormsContadorMvp.pdb
+C:\Users\usuario\source\repos\WinFormsApps\WinFormsContadorMvp\obj\Debug\net8.0-windows\WinFormsContadorMvp.genruntimeconfig.cache
+C:\Users\usuario\source\repos\WinFormsApps\WinFormsContadorMvp\obj\Debug\net8.0-windows\ref\WinFormsContadorMvp.dll
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\WinFormsContadorMvp\obj\Debug\net8.0-windows\WinFormsContadorMvp.dll
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\WinFormsContadorMvp\obj\Debug\net8.0-windows\refint\WinFormsContadorMvp.dll
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\WinFormsContadorMvp\obj\Debug\net8.0-windows\WinFormsContadorMvp.pdb

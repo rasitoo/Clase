@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/imagenCiudad.css">
+    <title>Preguntas</title>
+</head>
+<body>
+    <h2 class="Titulo">Genial!! Bienvenid@ a nuestro pequeño interrogatorio... </h2>
+    <h3 class="Titulo">Ayúdanos a conocerte un poquito más </h3>
+
+    <form action="InicioSesion.html">
+        <fieldset class="Color_Blanquito">
+            <legend><strong>Datos de acceso </strong></legend>
+
+            <p><label for="email"><strong>Correo Electrónico:</strong></label>
+                <input type="email" id="email" name="email" size="20" maxlength="20"  placeholder="Introduzca su correo electrónico" required></p>
+
+            <p><label for="imagen"><strong>Suba una Imagen</strong></label>
+                        <input type="file" id="Examinar"></p>
+
+            <p> <label for="password"><strong>Crea tu propia contraseña:</strong></label>
+                        <input type="password" id="contraseña1" name="contraseña1" minlength="12" title="Debe tener al menos 12 carácteres" required></p>
+        </fieldset>
+
+        <fieldset class="Color_Blanquito">
+            <legend><strong>Datos Personales</strong></legend>
+            <p> <label for="nombre"><strong>Nombre:</strong></label>
+                <input type="text" id="nombre" name="nombre" pattern="[a-zA-Z ]{2,64}" title="El nombre debe tener al menos 2 letras y maximo 64, solo admite letras y espacios" required></p>
+
+                <p> <label for="apellidos"><strong>Apellidos:</strong></label>
+                <input type="text" id="nombre" name="nombre" pattern="[a-zA-Z ]{2,64}" title="Los apellidos deben tener al menos 2 letras y maximo 64, solo admite letras y espacios" required></p>
+
+                <p><label for="Sexo"><strong>Sexo: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></label>
+                    Masculino <input type="radio" name="Sexo" value="M"> Femenino <input type="radio" name="Sexo" value="F">
+                </p> 
+
+                <p> <label for="DNI"><strong>DNI:</strong> </label>
+                    <input type="text" id="DNI" name="ID"  pattern="[0-9]{8}-[TRWAGMYFPDXBNJZSQVHLCKE]{1}" title="Debe incluir 8 dígitos, un guión y una letra en mayúscula(de las aceptadas en un DNI)" size="10" placeholder="00000000-A" maxlength="10"></p>
+                
+            
+                <p><label for="numero"><strong>Número de Teléfono:</strong></label>
+                    <input type="tel" id="numero" name="numero"></p>
+                    
+
+                <p><label for="Fecha" ><strong>Fecha de nacimiento:</strong></label>
+                <input type="date", type="month", type="date", type="time"  id="Fecha" name="Fecha" required></p>
+
+                <p><label for="CP"><strong>CP:</strong></label>
+                    <input type="text" name="CP" size="20" maxlength="5" pattern="\d+" title="Solo admite números">
+                </p>
+        </fieldset>
+
+
+
+        <p class="Color_Blanquito"> <label for="motivo" >¿Por qué te gustaría ir a Marte?</label>
+            <textarea id="motivo" name="motivo" rows="2" placeholder="Porque soy fan de Doom" required></textarea></p>
+        
+        <p class="Color_Blanquito"> <label for="pasajeros">¿Cuántos pasajeros sois?</label>
+            <input type="number" name="pasajeros" id="pasajeros" min="1" max="5">
+
+        </p>    
+                    
+        <p  class="Color_Blanquito" ><input type="checkbox" id="aceptar" name="aceptar" required>
+            <label for="aceptar">Acepto los términos y condiciones.</label></p>
+
+        <input type="submit" value="Todo listo"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reiniciar">
+    </form>
+</body>
+</html>

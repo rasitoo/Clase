@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+}
+h2{
+    margin: 10px;
+}
+table{
+    border: 5px solid;
+}
+td{
+    border: 5px solid;
+}
+ol{
+    list-style:upper-roman ;
+}
+ul{
+    list-style-type:square;
+    margin-right: 10px;
+}
+img{
+    height: 300px;
+}
+p{
+    margin:10px;
+}

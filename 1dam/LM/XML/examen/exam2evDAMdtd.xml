@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="examXML1DAM.xsl"?>
+<!DOCTYPE trayecto SYSTEM "examXML1DAM.xsd" >
+<trayecto dificultad="fácil">
+	<usuario preferente="true">
+		<codigoUsuario>C4532</codigoUsuario>
+		<nombre>José Manuel Pérez</nombre>
+	</usuario>
+	<puntoOrigen>
+		<pais ciudad="Getafe">España</pais>
+		<latitud>85.32</latitud>
+		<longitud>145.13</longitud>
+	</puntoOrigen>
+	<puntoIntermedio ciudad="Getafe">
+		<latitud>85.43</latitud>
+		<longitud>145.32</longitud>
+	</puntoIntermedio>
+	<puntoIntermedio ciudad="Getafe">
+		<latitud>86.33</latitud>
+		<longitud>145.12</longitud>
+	</puntoIntermedio>
+	<puntoIntermedio >
+		<latitud>85.34</latitud>
+		<longitud>143.11</longitud>
+	</puntoIntermedio>
+	<puntoIntermedio ciudad="Leganés">
+		<latitud>80.35</latitud>
+		<longitud>142.11</longitud>
+	</puntoIntermedio>
+	<puntoDestino ciudad="Madrid">
+		<latitud>78.35</latitud>
+		<longitud>140.01</longitud>
+	</puntoDestino>
+	<resumen>
+	   <distancia unidades="km">1.34</distancia>
+	   <mejorCiudad>Getafe</mejorCiudad>
+   </resumen>
+</trayecto>
+	

@@ -1,0 +1,38 @@
+ db.hospitales.insertMany([   
+[
+    {
+        "_id": 111,
+        "nombre": "Hospital General",
+        "direccion": "Av. Principal 123",
+        "ciudad": "Madrid",
+        "telefonos": ["123456789", "987654321"]
+    },
+    {
+        "_id": 112,
+        "nombre": "Hospital de la Paz",
+        "direccion": "Calle de la Salud 456",
+        "ciudad": "Madrid",
+        "telefonos": ["234567890", "876543210"]
+    },
+    {
+        "_id": 113,
+        "nombre": "Hospital Clínico",
+        "direccion": "Calle Médico 789",
+        "ciudad": "Barcelona",
+        "telefonos": ["345678901", "765432109"]
+    },
+    {
+        "_id": 114,
+        "nombre": "Hospital de Valencia",
+        "direccion": "Av. del Norte 321",
+        "ciudad": "Valencia",
+        "telefonos": ["456789012", "654321098"]
+    },
+    {
+        "_id": 115,
+        "nombre": "Hospital del Mar",
+        "direccion": "Calle del Mar 654",
+        "ciudad": "Barcelona",
+        "telefonos": ["567890123", "543210987"]
+    }
+]);

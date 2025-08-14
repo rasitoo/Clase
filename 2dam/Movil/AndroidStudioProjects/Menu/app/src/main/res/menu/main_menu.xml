@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/control_add"
+        android:icon="@drawable/ico_add_24"
+        android:title="anadir"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/control_list"
+        android:title="listar"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/paracaidista"
+        android:icon="@drawable/ico_paragliding_24"
+        android:title="paracaidista" />
+    <item
+        android:id="@+id/control_delete"
+        android:checkable="true"
+        android:checked="true"
+        android:enabled="true"
+        android:icon="@drawable/ico_delete_24"
+        android:menuCategory="system"
+        android:title="borrar"
+        android:visible="true"
+        app:showAsAction="always" />
+
+</menu>

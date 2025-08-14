@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>VALORACIÓN</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css"/>
+</head>
+<body>
+
+<div>
+    <h1>Valoración</h1>
+    <form action="encuestaEnviada.html">
+        <abbr title="Sr. o Sra.">Tratamiento</abbr> 
+ <input type="text" size="3"  maxlength="3" pattern="Sr[a]{0,1}" value="Sra">
+ <br>
+ <label for="nombre">Nombre</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <input type="text" size="20" name="nombre" required pattern="[a-zA-ZáéíóúñÁÉÍÓÚÑüÜ]{1,}[a-zA-ZáéíóúñÁÉÍÓÚÑüÜ]*" > 
+     <table >
+            <col class="col1" span="1" >
+            <col class="col2" span="2" >
+            <col class="col3"span="2" >
+        <caption >Indique su opinión sobre los siguientes aspectos</caption>
+        <thead>
+            <tr>
+                <th colspan="1" ></th>
+                <th colspan="2">Valoración de la dificultad <details>Indique con 0 si le parece muy fácil y 5 si le parece muy difícil</details> </th>
+                <th colspan="2">Valoración de lo que he aprendido. <details>Indique con 0 si no ha aprendido nada y 5 si ha aprendido mucho más de lo esperado.</details> </th>
+            </tr>
+            <tr>
+                <th>Criterio</th>
+                <th>Selección</th>
+                <th>Valor numérico</th>
+                <th>Selección</th>
+                <th>Valor numérico</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td > <a href="LenguajeMarcas.html"> Lenguaje de marcas </a></td>
+                <td><input id="ida" type="range" min="0" max="5" value="0" step="1" 
+                    name="a" oninput= "outa.value=this.value"/>  </td>
+                <td class="valorNumerico" > <output name="outa" for="ida" > </td>
+                <td><input id="idb" type="range" min="0" max="5" value="0" step="1" 
+                        name="b" oninput= "outb.value=this.value"/>  </td>
+                    <td class="valorNumerico"><output name="outb" for="idb"> </td>
+            </tr>
+            <tr>
+                <td><a href="Programacion.html"> Programación </a></td>
+                <td><input id="idc" type="range" min="0" max="5" value="0" step="1" 
+                    name="c" oninput= "outc.value=this.value"/>  </td>
+                <td class="valorNumerico"> <output name="outc" for="idc"> </td>
+                <td><input id="idd" type="range" min="0" max="5" value="0" step="1" 
+                        name="d" oninput= "outd.value=this.value"/>  </td>
+                    <td class="valorNumerico"> <output name="outd" for="idd"> </td>
+            </tr>
+            <tr>
+                <td>Matemáticas</td>
+                <td><input id="ide" type="range" min="0" max="5" value="0" step="1" 
+                    name="e" oninput= "oute.value=this.value"/>  </td>
+                <td class="valorNumerico"><output name="oute" for="ide"> </td>
+                <td><input id="idf" type="range" min="0" max="5" value="0" step="1" 
+                        name="f" oninput= "outf.value=this.value"/>  </td>
+                    <td class="valorNumerico"> <output name="outf" for="idf"> </td>
+            </tr>
+            <tr class="opinion" >
+                <td colspan="6" >
+                    <label for="opinion" >Indica tu Opinión</label>
+                    <textarea name="opinonP" id="opinion" cols="80" rows=5"></textarea>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot >
+            <tr>
+                <td colspan="6">Selecciona en la barra para que aparezca el valor numérico</td>
+            </tr>
+        </tfoot>
+    </table>
+<input type="submit" value="Finalizar">
+<input type="reset" value="Borrar">
+</form>
+<footer>&#169: José Manuel Pérez</footer>
+<p class="borrador">BORRADOR</p>
+</div>
+</body>
+</html>

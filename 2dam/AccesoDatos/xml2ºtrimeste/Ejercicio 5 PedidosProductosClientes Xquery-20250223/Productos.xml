@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<productos>
+  <producto>
+    <producto_id>101</producto_id>
+    <nombre>Libros en papel</nombre>
+    <cantidad_disponible>200</cantidad_disponible>
+  </producto>
+  <producto>
+    <producto_id>102</producto_id>
+    <nombre>Portátiles</nombre>
+    <cantidad_disponible>150</cantidad_disponible>
+  </producto>
+  <producto>
+    <producto_id>103</producto_id>
+    <nombre>Televisores</nombre>
+    <cantidad_disponible>120</cantidad_disponible>
+  </producto>
+  <producto>
+    <producto_id>104</producto_id>
+    <nombre>Teléfonos Fijos</nombre>
+    <cantidad_disponible>200</cantidad_disponible>
+  </producto>
+  <producto>
+    <producto_id>105</producto_id>
+    <nombre>Teléfonos Móviles</nombre>
+    <cantidad_disponible>50</cantidad_disponible>
+  </producto>
+  <producto>
+    <producto_id>106</producto_id>
+    <nombre>Cámaras Digitales</nombre>
+    <cantidad_disponible>100</cantidad_disponible>
+  </producto>
+  <producto>
+    <producto_id>107</producto_id>
+    <nombre>Muebles de Oficina</nombre>
+    <cantidad_disponible>300</cantidad_disponible>
+  </producto>
+  <producto>
+    <producto_id>108</producto_id>
+    <nombre>Muebles de Cocina</nombre>
+    <cantidad_disponible>340</cantidad_disponible>
+  </producto>
+  <producto>
+    <producto_id>109</producto_id>
+    <nombre>Libros Digitales</nombre>
+    <cantidad_disponible>220</cantidad_disponible>
+  </producto>
+  <producto>
+    <producto_id>110</producto_id>
+    <nombre>Ratones</nombre>
+    <cantidad_disponible>110</cantidad_disponible>
+  </producto>
+</productos>

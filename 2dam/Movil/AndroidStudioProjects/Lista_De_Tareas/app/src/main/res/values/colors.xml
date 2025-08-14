@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="primario_50">#DEF5F2</color>
+    <color name="primario_100">#ADE7DD</color>
+    <color name="primario_800">#007C60</color>
+
+    <color name="color1_700">#d42339</color>
+    <color name="color2_700">#1b88c7</color>
+    <color name="color3_700">#1b32c7</color>
+    <color name="color4_700">#8c15ba</color>
+
+</resources>

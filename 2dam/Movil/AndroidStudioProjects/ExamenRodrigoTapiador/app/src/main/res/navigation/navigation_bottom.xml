@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_bottom"
+    app:startDestination="@id/inicioFragment">
+
+    <fragment
+        android:id="@+id/inicioFragment"
+        android:name="com.example.examenrodrigotapiador.ui.HomeFragment"
+        android:label="fragment_inicio"
+        tools:layout="@layout/fragment_inicio" />
+    <fragment
+        android:id="@+id/perfilFragment"
+        android:name="com.example.examenrodrigotapiador.ui.PerfilFragment"
+        android:label="fragment_perfil"
+        tools:layout="@layout/fragment_perfil" />
+    <fragment
+        android:id="@+id/reservaFragment"
+        android:name="com.example.examenrodrigotapiador.ui.ReservaFragment"
+        android:label="fragment_reserva"
+        tools:layout="@layout/fragment_reserva" />
+    <fragment
+        android:id="@+id/mejoresFragment"
+        android:name="com.example.examenrodrigotapiador.ui.MejoresFragment"
+        android:label="fragment_mejores"
+        tools:layout="@layout/fragment_mejores" />
+</navigation>

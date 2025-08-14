@@ -1,0 +1,79 @@
+db.amigos.insertMany(
+[
+  {
+    "_id": "5a6f05fbb56b58b447e66801",
+    "Nombre": "Luís",
+    "Apellidos": "Martinez",
+    "Edad": 18,
+    "Aficiones": [
+      "fútbol",
+      "senderismo",
+      "tenis"
+    ],
+    "Amigos": [
+      {
+        "Nombre": "Monica",
+        "Edad": 20
+      },
+      {
+        "Nombre": "Andrés",
+        "Edad": 24
+      }
+    ]
+  },
+  {
+    "_id": "5a6f05fbb56b58b447e66802",
+    "Nombre": "Marisa",
+    "Apellidos": "Garcia",
+    "Edad": 18,
+    "Aficiones": [
+      "senderismo",
+      "tenis",
+      "pintura"
+    ],
+    "Amigos": [
+      {
+        "Nombre": "Monica",
+        "Edad": 20
+      }
+    ]
+  },
+  {
+    "_id": "5a6f05fbb56b58b447e66803",
+    "Nombre": "Joaquin",
+    "Apellidos": "Rodriguez",
+    "Edad": 21,
+    "Aficiones": [
+      "fútbol",
+      "natación"
+    ],
+    "Amigos": [
+      {
+        "Nombre": "Andrés",
+        "Edad": 24
+      }
+    ]
+  },
+  {
+    "_id": "5a6f05fbb56b58b447e66804",
+    "Nombre": "Luís",
+    "Apellidos": "Martinez",
+    "Edad": 20,
+    "Aficiones": [
+      "natación",
+      "culturismo"
+    ],
+    "Amigos": [
+      {
+        "Nombre": "Juan",
+        "Edad": 40
+      },
+      {
+        "Nombre": "Antonio",
+        "Edad": 52
+      }
+    ]
+  }
+]
+);
+

@@ -1,0 +1,67 @@
+p {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: justify;
+  }
+  
+
+  p:first-child span:nth-child(1){
+    text-decoration: underline;
+  }
+
+  p:first-child span:nth-child(2){
+    font-style: italic;
+  }
+
+  p:first-child span:nth-child(3){
+    text-decoration: line-through;
+  }
+
+  p:first-child span:nth-child(4){
+    text-decoration: line-through;
+  }
+
+  p:first-child span:nth-child(5){
+    font-weight: bold;
+  }
+
+  p:first-child span:nth-child(6){
+    color: red;
+  }
+  
+  p:nth-child(3) span:first-child{
+    font-weight: bold;
+ }
+
+  p:nth-child(3) span:nth-child(2){
+    text-decoration: underline;
+}
+
+  p:nth-child(3) span:last-child{
+    color: yellow;
+}
+  
+  p:nth-child(4) span:first-child { /*p:last-child no me funciona pr alguna razon*/
+    text-decoration: underline;
+}
+
+  p:nth-child(4) span:nth-child(2) {
+    font-style: italic;
+}
+
+  p:nth-child(4) span:nth-child(3) {
+    font-weight: bold;
+}
+
+  p:nth-child(4) span:nth-child(4) {
+    text-decoration: underline;
+}
+
+  p:nth-child(4) span:nth-child(5) {
+    font-style: italic;
+}
+
+  p:nth-child(4) span:nth-child(6) {
+    color: green;
+}

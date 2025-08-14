@@ -1,0 +1,43 @@
+/*1*/
+db.productos.find().count()
+/*2*/
+db.productos.find({ precio:{$lt:30} })
+/*3*/
+db.productos.find({ descripcion: /mezclilla/ })
+db.productos.find({ descripcion: {$regex:"mezclilla"} })
+/*4*/
+db.productos.find({inventario:{$gt:15}})
+/*5*/
+db.productos.find().sort({precio:-1}).limit(1)
+db.productos.find().sort({precio:1}).limit(1)
+/*6*/
+db.productos.updateMany({ "inventario": {$lt:6} }, {$inc: {precio:2} })
+/*7*/
+db.productos.find()
+db.productos.find().pretty() para que salga mas formateado
+/*8*/
+db.productos.aggregate
+(
+ { 
+   $group: { _id: null, totalAlumnos: { $sum: "$inventario" } }
+ }   
+)
+/*9*/
+db.productos.find().sort({precio:-1} ) /* descendente
+db.productos.find().sort({precio:-1} ) /* ascendente
+
+/*10*/
+db.productos.insertOne(
+ {
+  "nombre":"Sudadera",
+  "descripcion":"Sudadera con capucha",
+  "precio":29.99,
+  inventario:15
+ }
+)
+/*11*/
+db.productos.deleteOne(
+ {
+  "nombre":"Sudadera"
+ }
+)

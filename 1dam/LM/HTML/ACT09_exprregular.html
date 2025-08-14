@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="prueba.html">      
+        <label for="1">1 </label><br>
+        <input type="text" id="1" name="ID"  pattern=".*axxa.*" title="Debe incluir axxa" size="10" placeholder=".*axxa.*" maxlength="10"><br><br><br>
+
+        <label for="2">2 </label><br>
+        <input type="text" id="2" name="ID"  pattern="^axxa" title="Debe empezar por axxa" size="10" placeholder="^axxa" maxlength="10"><br><br><br>
+
+        <label for="3">3 </label><br>
+        <input type="text" id="3" name="ID"  pattern="^[aA]bc.*" title="Debe empezar por a o A seguido de bc y cualquier cosa" size="10" placeholder="^[aA]bc.*" maxlength="10"><br><br><br>
+
+        <label for="4">4 </label><br>
+        <input type="text" id="4" name="ID"  pattern="[^a-zA-Z]*[a-zA-Z]{5,10}[^a-zA-Z]*" title="tiene letras mayúsculas o minúsculas de una longitud entre 5 y 10 caracteres ambos incluidos" size="10" placeholder="[a-zA-Z]{5,10}" maxlength="20"><br><br><br>
+
+        <label for="5">5 </label><br>
+        <input type="text" id="5" name="ID"  pattern="\D.*" title=" La cadena no empieza por un digito" size="10" placeholder="\D.*" maxlength="10"><br><br><br>
+
+        
+        <label for="6">6 </label><br>
+        <input type="text" id="6" name="ID"  pattern=".*\D" title=" La cadena no acaba con un dígito" size="10" placeholder=".*\D" maxlength="10"><br><br><br>
+
+        <label for="7">7 </label><br>
+        <input type="text" id="7" name="ID"  pattern="[a-b]+" title="Solo contiene a o b minuscula" size="10" placeholder="[a-b]+" maxlength="10"><br><br><br>
+      
+        <label for="8">8 </label><br>
+        <input type="text" id="8" name="ID"  pattern="(^GS|^GM)\d{4}" title="Debe empezar por GS o GM y después 4 números" size="10" placeholder="(^GS|^GM)\d{4}" maxlength="10"><br><br><br>
+        
+        <label for="9">9 </label><br>
+        <input type="text" id="9" name="ID"  pattern="\d{8}[TRWAGMYFPDXBNJZSQVHLCKE]" title="8 dígitos y luego una letra de entre las admitidas para DNI" size="10" placeholder="\d{8}[TRWAGMYFPDXBNJZSQVHLCKE]" maxlength="10"><br><br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+      </form>
+      
+</body>
+</html>

@@ -1,0 +1,30 @@
+﻿<Window x:Class="WpfEjem.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfEjem"
+        xmlns:c="clr-namespace:WpfEjem.Controls"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <StackPanel>
+            <!-- ItemsControl View -->
+            <GroupBox Header="ItemsControl View" Margin="10">
+                <c:ItemsControlView/>
+            </GroupBox>
+            <!-- DataGrid View -->
+            <GroupBox Header="DataGrid View" Margin="10">
+                <c:DataGridView />
+            </GroupBox>
+            <!-- TreeView View -->
+            <GroupBox Header="TreeView View" Margin="10">
+                <c:TreeDataView />
+            </GroupBox>
+            <!-- ListView View -->
+            <GroupBox Header="ListView View" Margin="10">
+                <c:ListViewView />
+            </GroupBox>
+        </StackPanel>
+    </ScrollViewer>
+</Window>

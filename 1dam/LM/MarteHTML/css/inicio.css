@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;/*Fuente del texto*/
+    background-color: #f6f0f0; /*color del fondo, ligeramente rojizo salmón*/
+}
+h1 {
+    color: #d35400; /*Color del título*/
+    text-align: center; /*Título centrado*/
+}
+h3{
+    margin-left: 20px; /*Separa del borde*/
+}
+h4{
+    margin-left: 20px; /*Separa del borde*/
+}
+p {
+    font-size: 16px; /*Tamaño de la letra*/
+    line-height: 1.2; /*Ajusta interlineado*/
+    margin-left: 10px; /*Separa ligeramente del borde*/
+}
+.resaltado {
+    font-weight: bold; /*negrita*/
+    color:rgb(11, 89, 125);/*mismo color que el header*/
+}
+.boton:last-child:hover {
+    background-color: #c0392b; /*Al pasar el raton por encima del ultio boton se pone rojo*/
+}
+.imagen {
+    float: right; /*La imagen flota a la derecha*/
+    padding: 15px 10px; /*Separa la imagen del texto*/
+}
+.videonasa{
+    display:block; /*permite que actue como un objeto en bloque*/
+    padding: 20px; /*Huecos arriba y abajo para que quede más estético*/
+    margin: auto; /*Le añade margenes automaticamente y le pone en el centro*/
+    border: 0px; /*Eliminacion del borde por defecto*/
+}
+.audio{
+    padding: 20px; /*Separacion de los bordes de la pagina*/
+}
+article{
+    margin-top: 60px; /*Margen que evita la sobreposición del cabecero sobre el texto*/
+    position:absolute; /*Permite eliminarlo del flujo normal del documento para posicionarlo como queramos*/
+}
+
+.suscripcion{
+    max-width: 600px; /*Tamaño maximodel contenedor*/
+    margin: auto; /*Ajusta el contenedor al centro*/
+    margin-bottom: 20px; /*Despega el contenedor de abajo*/
+    background-color: #fff; /*Color de fondo*/
+    padding: 30px;/*Espacio hast alos bordes del contenedor*/
+    border-radius: 10px;/*Redondeo de bordes del contenedor*/
+    text-align: center;/*Ajusta el texto al centro del contenedor*/
+}
+
+.suscripcion > h2 {
+    color: #333; /*Color y tamaño de las letras del titulo*/
+    font-size: 28px;
+}
+
+.suscripcion > p {
+    color: #666; /*Color y tamaño del resto del texto*/
+    font-size: 16px;
+    margin-bottom: 20px; /*Espacio hast ael borde inferior*/
+}
+
+input[type="email"] {
+    padding: 10px; /*Espacio alrededor del input*/
+    border: 2px solid #ddd; /*Bordes del input*/
+    border-radius: 5px; /*Suavizado de bordes*/
+    width: 70%; /*Tamaño del input*/
+    margin-bottom: 15px; /*Margen de la parte inferior*/
+}
+
+button:last-of-type {
+    padding: 10px 20px; /*Espaciado alrededor de las letras del boton*/
+    border-radius: 5px; /*Redondeado de bordes*/
+    font-size: 18px; /*Tamaño de las letras del boton*/
+}
+
+button:last-of-type:hover {
+    background-color: #FFC500; /*Color amarillo al pasar el raton por encima del boton*/
+}

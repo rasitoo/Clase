@@ -1,0 +1,12 @@
+body{
+    background-attachment:fixed;
+    background-image: url(../media/Cuartito.jpg);
+    background-color: #010101;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Blanco{
+font-family: Georgia, 'Times New Roman', Times, serif ;
+    color: #f0efed;
+}

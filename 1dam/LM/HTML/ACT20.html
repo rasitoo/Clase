@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registrate en mi web</h1>
+
+    <form action="ACT20-b.html">
+        <fieldset>
+            <legend><strong>Datos de acceso</strong></legend>
+
+            <strong>Email</strong>: 
+            <input type="email" name="email" placeholder="sadf@kj.asdf" required> <br> 
+
+            <strong>Password</strong>: 
+            <input type="password" name="Password" id="psw" required>
+        </fieldset>
+        <fieldset>
+            <legend><strong>Datos personales</strong></legend>
+
+            &nbsp;<strong>Imagen</strong>:
+             Sube una foto: <input type="file" name="imagen" id="img"> <br>
+
+            <strong>Nombre</strong>:
+            <input type="text" name="Nombre" id="Nom" placeholder="asdf"> <br>
+
+            <strong>Primer apellido</strong>:
+            <input type="text" name="apellido1" id="ap1" placeholder="asdf"> <br>
+
+            <strong>Segundo apellido</strong>:
+            <input type="text" name="apellido2" id="ap2" placeholder="asdf"> <br>
+
+            <strong>Sexo</strong>:
+             Hombre <input type="radio" name="Sexo" value="H"> 
+             Mujer <input type="radio" name="Sexo" value="M"> 
+             Prefiero no decirlo <input type="radio" name="Sexo" value="null"> <br>
+
+            <strong>Fecha de nacimiento</strong>:
+            <input type="date" name="FechaN" id="FN">
+            <fieldset>
+                <legend><strong>Direccion</strong></legend>
+
+                <strong>Calle</strong>:
+                <input type="text" name="calle" id="ca" > <br>
+
+                <strong>Ciudad</strong>:
+                <input type="text" name="ciudad" id="ci" > <br>
+
+                <strong>País</strong>:
+                <select name="país">
+                    <option selected>España</option>
+                    <option>País1</option>
+                    <option>País2</option>
+                </select> <br>
+
+                <strong>Numero</strong>: <input type="text" name="numero" id="num" size="3" pattern="\d+" title="Solo admite números"> <br>
+                <strong>CP</strong>: <input type="text" name="CP" maxlength="5" pattern="\d{5}" title="Deben ser 5 números"> <br>
+            </fieldset>
+        </fieldset>
+        <fieldset>
+            <legend><strong>Personaliza tu web</strong></legend>
+
+            <strong>Tamaño de la fuente</strong>:
+            0 <input type="range" name="Fuente" id="fuente" min="0" max="100" value="82" oninput="Valor.value = this.value"> 100 
+            Valor <output name="Valor"></output> <br>
+
+            <strong>Elige el color del fondo</strong>:
+            <input type="color" name="color" id="color">
+        </fieldset>
+        <fieldset>
+            <legend><strong>Terminos y condiciones</strong></legend>
+            <input type="checkbox" name="terminos" id="term" required title="Debe aceptar nuestros terminos y condiciones para continuar"> Confirma que ha <a href="notenemosterminosycondiciones.html"> leído y comprende</a> nuestros terminos y condiciones
+
+        </fieldset>
+        <input type="submit" value="Registrate">
+        <input type="reset" value="Limpia"> <br> <br>
+    </form>
+    <form action="ACT20-bis.html">
+        <input type="submit" value="login">
+    </form>
+</body>
+</html>

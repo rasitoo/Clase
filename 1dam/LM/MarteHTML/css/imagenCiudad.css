@@ -1,0 +1,41 @@
+body{ /*En el body ponemos de fondo una imagen que cubra toda la pantalla y 
+    en caso de ser una imagen en la cual no la cubra entera, el color seleccionado hará contraste para que así no se vea mal  */
+
+    background-image: url(../media/Ciudad.jpg);
+    background-color: #1a1b1b;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Esto servirá para ponerle color a los cuadrados */
+fieldset.Color_Azul{
+
+    color:#dfdfc8;
+}
+
+fieldset.Color_Blanquito{
+
+    color:#e3e2c9;
+}
+
+p.Color_Blanquito{
+    color:#e3e2c9;
+}
+
+/*Esto servirá para ponerle una fuente a los títulos */
+h2.Titulo{
+
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h3.Titulo{
+
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+

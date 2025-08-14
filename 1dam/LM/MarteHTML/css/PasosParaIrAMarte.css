@@ -1,0 +1,37 @@
+div.contenido{
+    margin-top: 60px; /*Margen que evita la sobreposición del cabecero sobre el texto*/
+    position:absolute; /*Permite eliminarlo del flujo normal del documento para posicionarlo como queramos*/
+}
+body {
+    font-family: 'Arial', sans-serif; /*Fuente de las letras*/
+    line-height: 1.2; /*Interlineado*/
+    background-color: #f6f0f0; /*color del fondo, ligeramente rojizo salmón*/
+    margin: 0; /*Reiniciamos margenes y espacio*/
+    padding: 0;
+  }
+  .contenido {
+    margin: auto; /*Margenes de la lista*/
+    padding: 0 20px; /*Añadimos padding a los lados */
+  }
+  ol {
+    background-color: #fff; /*Color del fondo de la lista*/
+    padding: 10px 35px; /*Padding para separar la lista de los bordes del div*/
+    border-radius: 5px; /*Redondea los picos*/
+  }
+  li {
+    max-width: 600px;
+    margin-bottom: 10px; /*Separacion entre elementos de la lista*/
+    font-size: 16px; /*Tamaño de la letra*/
+    color: #333; /*Color de la letra*/
+  }
+  li > ol {
+    list-style:lower-roman ; /*Lista anidada con numeros romanos*/
+  }
+  li > ul{
+    list-style-type: disc; /*Lista anidada con circulos*/
+  }
+  .imagen {
+    height: 100px;
+    float:right; /*La imagen flota a la derecha*/
+    padding: 15px 10px; /*Separa la imagen del texto*/
+}

@@ -1,0 +1,31 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Ejer2WpfExamenRodrigoTapiador/1.0.0": {
+        "runtime": {
+          "Ejer2WpfExamenRodrigoTapiador.dll": {}
+        },
+        "resources": {
+          "en/Ejer2WpfExamenRodrigoTapiador.resources.dll": {
+            "locale": "en"
+          },
+          "es/Ejer2WpfExamenRodrigoTapiador.resources.dll": {
+            "locale": "es"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ejer2WpfExamenRodrigoTapiador/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

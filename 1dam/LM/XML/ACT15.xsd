@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="factura" type="factura">
+    </xs:element>
+    <xs:complexType name="factura">
+        <xs:sequence>
+            <xs:element name="datos_empresa" type="datos_empresa"/>
+            <xs:element name="datos_cliente" type="datos_cliente"/>
+            <xs:element name="datos_factura" type="datos_factura"/>
+        </xs:sequence>
+        <xs:attribute name="n_fac" type="tipoID" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="datos_empresa">
+        <xs:sequence>
+            <xs:element name="nombre" type="xs:string"></xs:element>
+            <xs:element name="dir" type="xs:string"></xs:element>
+            <xs:element name="poblacion" type="poblacion"></xs:element>
+            <xs:element name="provincia" type="xs:string"></xs:element>
+            <xs:element name="cif" type="cif"></xs:element>
+            <xs:element name="telefono" type="numero" minOccurs="0"></xs:element>
+            <xs:element name="fax" type="numero" minOccurs="0"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="datos_cliente">
+        <xs:sequence>
+            <xs:element name="nombre" type="xs:string"></xs:element>
+            <xs:element name="dir_env" type="xs:string"></xs:element>
+            <xs:element name="poblacion" type="poblacion"></xs:element>
+            <xs:element name="provincia" type="xs:string"></xs:element>
+        </xs:sequence>
+        <xs:attribute name="n_cli" type="tipoID" use="required"></xs:attribute>
+    </xs:complexType>
+    <xs:complexType name="datos_factura">
+        <xs:sequence>
+            <xs:element name="fecha" type="xs:date"></xs:element>
+            <!-- El elemento fecha es de tipo “date”. -->
+            <xs:element name="Linea" type="linea" maxOccurs="unbounded"></xs:element>
+            <xs:element name="base" type="real"></xs:element>
+            <xs:element name="cuota_iva" type="cuota_iva"></xs:element>
+            <xs:element name="total" type="real"></xs:element>
+        </xs:sequence>
+        <xs:attribute name="n_ped" type="tipoID" use="required"></xs:attribute>
+        <xs:attribute name="iva" type="iva" use="required"></xs:attribute>
+        <xs:attribute name="f_pago" type="f_pago"></xs:attribute>
+        <xs:attribute name="moneda" type="moneda" use="required"></xs:attribute>
+    </xs:complexType>
+    <xs:complexType name="poblacion">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="cod_postal" type="CP"></xs:attribute>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="linea">
+        <xs:sequence>
+            <xs:element name="ref" type="ref"></xs:element>
+            <xs:element name="desc" type="desc"></xs:element>
+            <xs:element name="cant" type="xs:positiveInteger"></xs:element>
+            <xs:element name="precio" type="precio"></xs:element>
+            <xs:element name="importe" type="real"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:simpleType name="numero">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[0-9]{9}|"></xs:pattern>
+        </xs:restriction>
+        <!--Los números de teléfono (telefono) y fax (fax) de la empresa no tienen porqué
+        aparecer en la factura, pero siempre que lo hagan deberán tener los mismos
+        valores (teléfono 917776688, fax 917776699). -->
+    </xs:simpleType>
+    <xs:simpleType name="tipoID">
+        <xs:restriction base="xs:positiveInteger">
+            <xs:pattern value="[0-9]{0,4}"></xs:pattern>
+            <!--El número de factura (n_fac), número de cliente (n_cli) y número de pedido
+            (n_ped) son del tipo “tipoID”, que se define como un entero positivo de 4 cifras.
+            Estos atributos son obligatorios. No tienen por qué ser únicos dentro del
+            documento. -->
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="f_pago">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="(efectivo|tarjeta|plazos)"></xs:pattern>
+        </xs:restriction>
+        <!--La forma de pago puede tomar los valores “efectivo”, “tarjeta” y “plazos”. -->
+    </xs:simpleType>
+    <xs:simpleType name="moneda">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="euro"></xs:pattern>
+        </xs:restriction>
+        <!--La moneda tiene que aparecer siempre, y siempre toma el valor “euro”. -->
+    </xs:simpleType>
+    <xs:simpleType name="cuota_iva">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[a-zA-Z0-9.]*"></xs:pattern>
+        </xs:restriction>
+        <!--• El iva tiene que aparecer siempre, y su valor no puede contener caracteres especiales. -->
+    </xs:simpleType>
+    <xs:simpleType name="ref">
+        <xs:restriction base="xs:string">
+            <xs:pattern value=".{5,15}"></xs:pattern>
+        </xs:restriction>
+        <!--Las referencias de los artículos son cadenas de entre 5 y 15 caracteres. -->
+    </xs:simpleType>
+    <xs:simpleType name="desc">
+        <xs:restriction base="xs:string">
+            <xs:pattern value=".{1,100}"></xs:pattern>
+        </xs:restriction>
+        <!--Las descripciones de los artículos son cadenas entre 1 y 100 caracteres. -->
+    </xs:simpleType>
+    <xs:simpleType name="precio">
+        <xs:restriction base="xs:decimal">
+            <xs:totalDigits value="7"></xs:totalDigits>
+            <xs:fractionDigits value="2"></xs:fractionDigits>
+        </xs:restriction>
+        <!-- Los precios son números reales con un máximo de 5 cifras enteras y 2 decimales.-->
+    </xs:simpleType>
+    <xs:simpleType name="real">
+        <xs:restriction base="xs:decimal">
+            <xs:fractionDigits value="2"></xs:fractionDigits>
+        </xs:restriction>
+        <!--Todos los demás valores de tipo real están limitados a 2 cifras decimales. -->
+    </xs:simpleType>
+    <xs:simpleType name="CP">
+        <xs:restriction base="xs:positiveInteger">
+            <xs:pattern value="[0-9]{5}"></xs:pattern>
+        </xs:restriction>
+        <!--Los códigos postales tienen 5 dígitos. -->
+    </xs:simpleType>
+    <xs:simpleType name="iva">
+        <xs:restriction base="xs:positiveInteger">
+            <xs:pattern value=".{2}"></xs:pattern>
+        </xs:restriction>
+        <!--El porcentaje de iva es un número entero positivo de 2 cifras-->
+    </xs:simpleType>
+    <xs:simpleType name="cif">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[A-Z]{1}-[0-9]{7}"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

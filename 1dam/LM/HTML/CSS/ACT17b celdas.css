@@ -1,0 +1,13 @@
+table{
+    border: 2px solid green;
+    empty-cells: hide;
+    border-spacing: 5000px;
+}
+td{
+    background-color:lightskyblue;
+    border: 3px solid gray;
+    border-spacing: 500px;
+    padding: 12px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}

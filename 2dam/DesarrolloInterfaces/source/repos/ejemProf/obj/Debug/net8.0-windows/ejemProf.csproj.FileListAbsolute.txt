@@ -1,0 +1,14 @@
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\ejemProf\obj\Debug\net8.0-windows\ejemProf.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\ejemProf\obj\Debug\net8.0-windows\ejemProf.AssemblyInfoInputs.cache
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\ejemProf\obj\Debug\net8.0-windows\ejemProf.AssemblyInfo.cs
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\ejemProf\obj\Debug\net8.0-windows\ejemProf.csproj.CoreCompileInputs.cache
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\ejemProf\bin\Debug\net8.0-windows\ejemProf.exe
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\ejemProf\bin\Debug\net8.0-windows\ejemProf.deps.json
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\ejemProf\bin\Debug\net8.0-windows\ejemProf.runtimeconfig.json
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\ejemProf\bin\Debug\net8.0-windows\ejemProf.dll
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\ejemProf\bin\Debug\net8.0-windows\ejemProf.pdb
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\ejemProf\obj\Debug\net8.0-windows\ejemProf.dll
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\ejemProf\obj\Debug\net8.0-windows\refint\ejemProf.dll
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\ejemProf\obj\Debug\net8.0-windows\ejemProf.pdb
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\ejemProf\obj\Debug\net8.0-windows\ejemProf.genruntimeconfig.cache
+C:\Users\Rodrigo\OneDrive\Documents\AAClase2\DesarrolloInterfaces\source\repos\ejemProf\obj\Debug\net8.0-windows\ref\ejemProf.dll

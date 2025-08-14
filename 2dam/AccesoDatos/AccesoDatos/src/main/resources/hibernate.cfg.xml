@@ -1,0 +1,39 @@
+<hibernate-configuration>
+    <session-factory>
+        <!-- Configuración de la Conexión a JDBC -->
+        <property
+                name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property
+                name="hibernate.connection.url">jdbc:mysql://localhost:3306/ejemplos</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password"></property>
+        <!-- Configuración de la agrupación de conexiones -->
+        <property name="hibernate.c3p0.min_size">5</property>
+        <property name="hibernate.c3p0.max_size">20</property>
+        <!-- Dialecto especifico -->
+        <property
+                name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <!-- Gestión de la session Hibernate -->
+        <property name="hibernate.current_session_context_class">thread</property>
+        <!-- Gestión del SQL, false quitamos logs -->
+        <property name="hibernate.show_sql">false</property>
+        <!-- Drop and re-create the database schema on startup -->
+        <property name="hibernate.hbm2ddl.auto">update</property>
+        <!-- Disable the second-level cache -->
+        <property name="hibernate.cache.use_second_level_cache">false</property>
+        <!-- Echo all executed SQL to stdout, false quitamos logs -->
+        <property name="hibernate.format_sql">false</property>
+        <!--Logs del hibernate-->
+        <property name="hibernate.use_sql_comments">false</property>
+        <!--  No usar comentarios SQL  -->
+        <!--  Establecer el nivel de logging para Hibernate a ERROR o FATAL para suprimir INFO y WARN  -->
+        <property name="hibernate.logger.level">ERROR</property>
+        <!--  Desactivar estadísticas de Hibernate, que también puede generar logs  -->
+        <property name="hibernate.generate_statistics">false</property>
+        <!-- Mapeo de clases -->
+        <mapping class="ejercicios.ehibernate.apartadoa.Profesor"/>
+        <mapping class="ejercicios.ehibernate.apartadoa.Asignatura"/>
+
+
+    </session-factory>
+</hibernate-configuration>

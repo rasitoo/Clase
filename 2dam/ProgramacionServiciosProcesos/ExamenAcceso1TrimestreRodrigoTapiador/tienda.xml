@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tiendas> 
+    <Tienda>
+        <identificador>1</identificador>
+        <nombre>Atos Origin</nombre>
+        <localidad>Madrid</localidad>
+        <beneficiosAnuales>120000</beneficiosAnuales>
+        <beneficiosMensuales>10000</beneficiosMensuales>
+    </Tienda>
+    <Tienda>
+        <identificador>2</identificador>
+        <nombre>Scaletrix</nombre>
+        <localidad>Barcelona</localidad>
+        <beneficiosAnuales>150000</beneficiosAnuales>
+        <beneficiosMensuales>12500</beneficiosMensuales>
+    </Tienda>
+    <Tienda>
+        <identificador>3</identificador>
+        <nombre>Mecatronic</nombre>
+        <localidad>Valencia</localidad>
+        <beneficiosAnuales>90000</beneficiosAnuales>
+        <beneficiosMensuales>7500</beneficiosMensuales>
+    </Tienda>
+    <Tienda>
+        <identificador>4</identificador>
+        <nombre>System Juegos</nombre>
+        <localidad>Madrid</localidad>
+        <beneficiosAnuales>110000</beneficiosAnuales>
+        <beneficiosMensuales>9167</beneficiosMensuales>
+    </Tienda>
+    <Tienda>
+        <identificador>5</identificador>
+        <nombre>Futbol Factory</nombre>
+        <localidad>Madrid</localidad>
+        <beneficiosAnuales>130000</beneficiosAnuales>
+        <beneficiosMensuales>10833</beneficiosMensuales>
+    </Tienda>
+    <Tienda>
+        <identificador>6</identificador>
+        <nombre>Deportes Julian</nombre>
+        <localidad>Sevilla</localidad>
+        <beneficiosAnuales>80000</beneficiosAnuales>
+        <beneficiosMensuales>6667</beneficiosMensuales>
+    </Tienda>
+    <Tienda>
+        <identificador>7</identificador>
+        <nombre>Juegos Online</nombre>
+        <localidad>Madrid</localidad>
+        <beneficiosAnuales>140000</beneficiosAnuales>
+        <beneficiosMensuales>11667</beneficiosMensuales>
+    </Tienda>
+    <Tienda>
+        <identificador>8</identificador>
+        <nombre>Mac Revolution</nombre>
+        <localidad>Barcelona</localidad>
+        <beneficiosAnuales>170000</beneficiosAnuales>
+        <beneficiosMensuales>14167</beneficiosMensuales>
+    </Tienda>
+    <Tienda>
+        <identificador>9</identificador>
+        <nombre>RAM Store</nombre>
+        <localidad>Zaragoza</localidad>
+        <beneficiosAnuales>100000</beneficiosAnuales>
+        <beneficiosMensuales>8333</beneficiosMensuales>
+    </Tienda>
+    <Tienda>
+        <identificador>10</identificador>
+        <nombre>Tarjetas TOP</nombre>
+        <localidad>Madrid</localidad>
+        <beneficiosAnuales>105000</beneficiosAnuales>
+        <beneficiosMensuales>8750</beneficiosMensuales>
+    </Tienda>
+</Tiendas>

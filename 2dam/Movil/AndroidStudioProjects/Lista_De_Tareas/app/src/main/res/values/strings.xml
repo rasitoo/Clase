@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Lista_De_Tareas</string>
+    <string name="todo">TODO</string>
+    <string name="notas_personales">Notas Personales</string>
+    <string name="todoO">TODO</string>
+    <string name="fecha_de_registro">Fecha de registro</string>
+
+    <string-array name="categoria_array">
+        <item>Personal</item>
+        <item>Trabajo</item>
+        <item>Urgente</item>
+    </string-array>
+</resources>
